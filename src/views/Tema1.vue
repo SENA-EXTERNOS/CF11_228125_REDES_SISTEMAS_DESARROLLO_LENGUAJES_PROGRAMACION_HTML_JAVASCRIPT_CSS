@@ -197,7 +197,7 @@
     
     .row.justify-content-around.align-items-center.fondo-tarjeta-direccion-ip
 
-      .titulo-sexto.color-acento-contenido.mb-3
+      .titulo-sexto.color-acento-botones.mb-3
         h5 Tabla 1.
         span Comandos de<em> red</em>
 

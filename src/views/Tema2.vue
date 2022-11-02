@@ -53,8 +53,8 @@
     br
 
     .row.justify-content-around.align-items-center
-
-      p Ahora, la configuración del sistema operativo inició desde el proceso de instalación del mismo, lo cual integra diferentes fases, las cuales inician desde el proceso de preparación del dispositivo de instalación hasta la instalación de los archivos de ejecución del mismo, ahora bien, parte de la configuración también consiste en verificar ciertos puntos fundamentales del sistema operativo para poder instalar o colocar en marcha ciertos programas que son fundamentales para el correcto funcionamiento de la computadora.
+      .cuadro-color-superior-tarjeta3-tema1
+      p.texto--intro-configuracion-sistema-operativo.p-3 Ahora, la configuración del sistema operativo inició desde el proceso de instalación del mismo, lo cual integra diferentes fases, las cuales inician desde el proceso de preparación del dispositivo de instalación hasta la instalación de los archivos de ejecución del mismo, ahora bien, parte de la configuración también consiste en verificar ciertos puntos fundamentales del sistema operativo para poder instalar o colocar en marcha ciertos programas que son fundamentales para el correcto funcionamiento de la computadora.
 
       .row
         .cuadro-color-inferior-tarjeta3-tema1
