@@ -52,6 +52,8 @@
       br
       
       .row.justify-content-around.align-items-center
+
+        p #[strong Los beneficios de estos contenedores son:]
         
         .row
           .col-lg-8.order-2.order-lg-1
@@ -68,7 +70,7 @@
 
               .tarjeta.tarjeta-pestanas-verticales.clr-paleYellow.p-4(titulo="Funcionamiento más constante").bloque-texto-pestanas-verticales-tema4
                 h4 Funcionamiento más constante
-                p Los equipos de DevOps saben que las aplicaciones en contenedores van a ejecutarse igual, independientemente de donde se pongan en marcha.
+                p Los equipos de <em>DevOps</em> saben que las aplicaciones en contenedores van a ejecutarse igual, independientemente de donde se pongan en marcha.
               
               
               .tarjeta.tarjeta-pestanas-verticales.clr-paleYellow.p-4(titulo="Mayor eficiencia").bloque-texto-pestanas-verticales-tema4
@@ -78,7 +80,7 @@
               
               .tarjeta.tarjeta-pestanas-verticales.clr-paleYellow.p-4(titulo="Mejor desarrollo de aplicaciones").bloque-texto-pestanas-verticales-tema4
                 h4 Mejor desarrollo de aplicaciones
-                p Los contenedores respaldan los esfuerzos ágiles y de DevOps para acelerar los ciclos de desarrollo, prueba y producción.
+                p Los contenedores respaldan los esfuerzos ágiles y de <em>DevOps</em> para acelerar los ciclos de desarrollo, prueba y producción.
 
 
           .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -90,7 +92,7 @@
         .row
           .col-lg-10
             .cajon.color-acento-botones.cajon-color-comando-ping-t.p-4
-              p Para tener mayor compresión sobre la instalación de este servicio, lo invitamos a ver el video Docker y <em>kubernetes</em> sobre <em>Windows 10 wls</em>, el cual se encuentra en el material complementario.
+              p Para tener mayor compresión sobre la instalación de este servicio, lo invitamos a ver el video <em>Docker</em> y <em>kubernetes</em> sobre <em>Windows 10 wls</em>, el cual se encuentra en el material complementario.
       
       separador
       br
@@ -106,7 +108,7 @@
         .row
           .col-lg-6
             
-            p(data-aos="fade-left") #[strong  Las bases de datos son sistemas de almacenamiento que permiten resguardar la información de una manera organizada y segura, una característica es la velocidad de respuesta al momento de solicitar la búsqueda a realizar pero en este momento nos concentramos en los servidores de bases de datos, los cuales son utilizados para el despliegue de bases de datos que prestan servicios a millones de usuarios en la red.] Uno de los aspectos a tener en cuenta al momento de realizar la instalación de un servidor de bases de datos, son los requerimientos de infraestructura que se necesitan para poder atender a la cantidad de usuarios que requieren de dicho servicio, esto se puede ver en la cantidad de estos o de conexiones simultáneas que pueda soportar el servicio. Como bien se sabe, existen muchos motores de bases de datos que actualmente son utilizados para el almacenamiento de información pero nos concentraremos en <em>MySQL</em>.
+            p(data-aos="fade-left") #[strong  Las bases de datos son sistemas de almacenamiento que permiten resguardar la información de una manera organizada y segura, una característica es la velocidad de respuesta al momento de solicitar la búsqueda a realizar pero en este momento nos concentramos en los servidores de bases de datos, los cuales son utilizados para el despliegue de bases de datos que prestan servicios a millones de usuarios en la <em>red</em>.] Uno de los aspectos a tener en cuenta al momento de realizar la instalación de un servidor de bases de datos, son los requerimientos de infraestructura que se necesitan para poder atender a la cantidad de usuarios que requieren de dicho servicio, esto se puede ver en la cantidad de estos o de conexiones simultáneas que pueda soportar el servicio. Como bien se sabe, existen muchos motores de bases de datos que actualmente son utilizados para el almacenamiento de información pero nos concentraremos en <em>MySQL</em>.
 
           .col-lg-6
             
@@ -125,7 +127,7 @@
                 img(data-aos="fade-down-right")(src='@/assets/curso/temas/imagen-mysql-tema4.png', alt='Texto que describa la imagen').imagen-base-datos-tema4
 
           .col-lg-6(data-aos="fade-left").p-3
-            p.texto-tarjeta-mysql El servidor de bases de datos <em>MySQL</em> es un <em>software</em> que se encarga del almacenamiento y procesamiento de información. Este servidor puede ser ejecutado de manera local o de manera remota, instalado en unos servicios de alojamiento llamados <em>hosting</em>, los cuales son servicios que se ofrecen a través de internet y que se tiene que adquirir un plan para usarlos. Una de las cosas a tener presente en un servidor de bases de datos es la configuración de acceso teniendo en cuenta la cantidad de conexiones y usuarios autorizados para acceder a la información almacenada, otro aspecto son los permisos que se les da a esos usuarios para modificar la información, un ejemplo puede ser un usuario administrador y un usuario de consulta, el usuario administrador tendrá permisos de actualizar y modificar ciertas funciones e información del sistema mientras que el usuario de consulta solo podrá acceder a información almacenada pero no podrá modificar la que ya se encuentra almacenada a continuación veremos estas dos opciones.
+            p.texto-tarjeta-mysql El servidor de bases de datos <em>MySQL</em> es un <em>software</em> que se encarga del almacenamiento y procesamiento de información. Este servidor puede ser ejecutado de manera local o de manera remota, instalado en unos servicios de alojamiento llamados <em>hosting</em>, los cuales son servicios que se ofrecen a través de <em>internet</em> y que se tiene que adquirir un plan para usarlos. Una de las cosas a tener presente en un servidor de bases de datos es la configuración de acceso teniendo en cuenta la cantidad de conexiones y usuarios autorizados para acceder a la información almacenada, otro aspecto son los permisos que se les da a esos usuarios para modificar la información, un ejemplo puede ser un usuario administrador y un usuario de consulta, el usuario administrador tendrá permisos de actualizar y modificar ciertas funciones e información del sistema mientras que el usuario de consulta solo podrá acceder a información almacenada pero no podrá modificar la que ya se encuentra almacenada a continuación veremos estas dos opciones.
             p.texto-tarjeta-mysql La siguiente imagen nos presenta un servidor de bases de datos <em>MySQL</em>.
             br
             
@@ -137,7 +139,7 @@
       .row.justify-content-around.align-items-center
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 4.
-            span Servidor de bases de datos <em>MySQL</em>
+            span <em>Servidor de bases de datos MySQL</em>
           br
 
           .row
@@ -163,7 +165,7 @@
       .row.justify-content-around.align-items-center
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 5.
-            span Configuración de cuentas de usuario
+            span <em>Configuración de cuentas de usuario</em>
           br
 
           .row
@@ -192,7 +194,7 @@
       .row.justify-content-around.align-items-center
           .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 6.
-            span Configuración de límite de recursos
+            span <em>Configuración de límite de recursos</em>
           br
 
           .row

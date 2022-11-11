@@ -37,15 +37,15 @@
             //figcaption Leyenda de la imagen
 
         .tarjeta.color-acento-contenido.p-3(x="30.5%" y="4%" numero="+")
-          .h5.mb-2 Linux
-          p Es un sistema desarrollado bajo la filosofía de software libre, el cual tiene un concepto de manejo de libertades en el uso del <em>software</em>; este sistema operativo está más relacionado con los equipos que prestan servicios llamados servidores, los cuales permiten instalar programas que pueden ser utilizados por millones de usuarios en <em>internet</em>.
+          .h5.mb-2 <em>Linux</em>
+          p Es un sistema desarrollado bajo la filosofía de <em>software</em> libre, el cual tiene un concepto de manejo de libertades en el uso del <em>software</em>; este sistema operativo está más relacionado con los equipos que prestan servicios llamados servidores, los cuales permiten instalar programas que pueden ser utilizados por millones de usuarios en <em>internet</em>.
 
         .tarjeta.color-acento-contenido.p-3(x="59%" y="4%" numero="+")
-          .h5.mb-2 MAC OS
+          .h5.mb-2 <em>MAC OS</em>
           p Es un sistema operativo desarrollado por la empresa <em>Apple</em>, el cual permite realizar el control y administración de los equipos de dicha marca. Este sistema operativo es muy versátil y utilizado por muchos usuarios a nivel mundial por su gran capacidad de adaptación al usuario final y su seguridad, es importante mencionar que este sistema operativo se distribuye también para dispositivos móviles tales como tabletas y teléfonos celulares.
 
         .tarjeta.color-acento-contenido.p-3(x="87.5%" y="4%" numero="+")
-          .h5.mb-2 Windows
+          .h5.mb-2 <em>Windows</em>
           p Es un sistema operativo desarrollado por la empresa <em>Microsoft</em>, el cual se ha convertido a lo largo de los años en el principal sistema operativo utilizado en el mundo por su sencillez y facilidad. Adicional a ello, tiene una gran compatibilidad con los diferentes dispositivos y fabricantes actuales, para el tema de videojuegos e integración de multimedia, es la mejor alternativa para diseñadores y programadores de computadoras, porque es un sistema operativo muy versátil y utilizado.
 
     br
@@ -72,7 +72,7 @@
 
     .row.justify-content-around.align-items-center
       //problema con la etiqueta de red
-      p #[strong A continuación, veremos algunas configuraciones de <em>red</em>, pantalla y teclado, para el ejemplo nos enfocaremos en el sistema operativo Windows, porque es el más utilizado, como mencionamos anteriormente.]
+      p #[strong A continuación, veremos algunas configuraciones de <em>red</em>, pantalla y teclado, para el ejemplo nos enfocaremos en el sistema operativo <em>Windows</em>, porque es el más utilizado, como mencionamos anteriormente.]
 
       figure
           img(src='@/assets/curso/temas/imagen-fondo-slider-tema2 .png', alt='Texto que describa la imagen').imagen-fondo-tarjetas-slider-tema1
@@ -127,7 +127,7 @@
 
             .col-lg-6.p-3
               h4.texto-tarjeta-final-tema2 Sistemas operativos y sus comandos
-              p.texto-tarjeta-final-tema2 Para finalizar, lo invitamos a ver el documento Sistemas operativos y sus comandos, donde encontrará los diferentes comandos que se utilizan en los diferentes sistemas operativos.
+              p.texto-tarjeta-final-tema2 Para finalizar, lo invitamos a ver el documento <em>Sistemas operativos y sus comandos</em>, donde encontrará los diferentes comandos que se utilizan en los diferentes sistemas operativos.
 
             .col-lg-4
               a.boton.color-acento-botones.boton-tarjeta-final-tema2.texto-blanco(:href="obtenerLink('/downloads/ANEXOS Sistemas_operativos_y_sus_comandos.pdf')" target="_blank")

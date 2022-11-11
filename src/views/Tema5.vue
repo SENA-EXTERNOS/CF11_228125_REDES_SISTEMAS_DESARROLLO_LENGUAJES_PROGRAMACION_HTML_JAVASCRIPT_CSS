@@ -17,7 +17,7 @@
                 img(data-aos="fade-down-left")(src='@/assets/curso/temas/imagen-IDE-tema5.png', alt='Texto que describa la imagen').imagen-tarjeta1-tema5
             
           .col-lg-6.color-columna-der-tarjeta1-tema5
-            p(data-aos="fade-right").texto-tarjeta1-tema5.p-3 Las herramientas de desarrollo de <em>software</em> son las que hacen posible la construcción de las aplicaciones informáticas que manejamos a diario, son un tipo de <em>software</em> que permite la codificación y ensamble de dichos aplicativos. Ahora nos vamos a concentrar en los <em>IDEs</em>, lo que significa Entorno de desarrollo integrado, estos <em>software</em> permiten integrar tanto el <em>Front-end</em> como Back-end, es decir, permiten realizar las vistas o diseño del aplicativo como también la codificación del mismo y a su vez la integración de estos, un ejemplo podría ser <em>Visual Studio Code</em>, que solo permite la codificación de lo que denominamos <em>Back-end</em> pero no tiene un diseñador para la construcción de interface, es allí donde encontramos las primeras diferencias significativas. Un entorno de desarrollo integrado es una herramienta que tiene todos los componentes para desarrollar una aplicación desde su creación, diseño, codificación y pruebas.
+            p(data-aos="fade-right").texto-tarjeta1-tema5.p-3 Las herramientas de desarrollo de <em>software</em> son las que hacen posible la construcción de las aplicaciones informáticas que manejamos a diario, son un tipo de <em>software</em> que permite la codificación y ensamble de dichos aplicativos. Ahora nos vamos a concentrar en los <em>IDEs</em>, lo que significa Entorno de desarrollo integrado, estos <em>software</em> permiten integrar tanto el <em>Front-end</em> como <em>Back-end</em>, es decir, permiten realizar las vistas o diseño del aplicativo como también la codificación del mismo y a su vez la integración de estos, un ejemplo podría ser <em>Visual Studio Code</em>, que solo permite la codificación de lo que denominamos <em>Back-end</em> pero no tiene un diseñador para la construcción de interface, es allí donde encontramos las primeras diferencias significativas. Un entorno de desarrollo integrado es una herramienta que tiene todos los componentes para desarrollar una aplicación desde su creación, diseño, codificación y pruebas.
             br
             br
             br
@@ -31,7 +31,7 @@
         .row
     
           .col-lg-6
-            p.texto-netbeans-tema5.p-3 En la imagen a continuación, se observa la creación de un front-end de un software desarrollado en un aplicativo llamado Netbeans, el cual es un IDE que trabaja con el lenguaje de programación <em>JAVA</em> y mediante un diseñador, se pueden agregar los componentes requeridos para que el usuario pueda interactuar con el sistema.
+            p.texto-netbeans-tema5.p-3 En la imagen a continuación, se observa la creación de un <em>front-end</em> de un <em>software</em> desarrollado en un aplicativo llamado Netbeans, el cual es un IDE que trabaja con el lenguaje de programación <em>JAVA</em> y mediante un diseñador, se pueden agregar los componentes requeridos para que el usuario pueda interactuar con el sistema.
             
           .col-lg-6
           
@@ -59,7 +59,7 @@
         .row
           .col-lg-10
             .cajon.color-primario.cajon-color-direccion-ip.p-4
-              p En la siguiente imagen, vemos el proceso de codificación del aplicativo, el cual se conectará con el front-end para recibir todas las instrucciones que el usuario desea que realice el programa, recordemos que el back-end depende de las funciones que el programador puso en el mismo y que de acuerdo a lo que el usuario realice así será la respuesta a entregar.
+              p En la siguiente imagen, vemos el proceso de codificación del aplicativo, el cual se conectará con el <em>front-end</em> para recibir todas las instrucciones que el usuario desea que realice el programa, recordemos que el <em>back-end</em> depende de las funciones que el programador puso en el mismo y que de acuerdo a lo que el usuario realice así será la respuesta a entregar.
         
       br
       br

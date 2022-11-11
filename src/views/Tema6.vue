@@ -71,8 +71,8 @@
       .row.fondo-tarjeta5-tema6
         .col-lg-6.p-3
           p.texto-superior-tarjeta5-tema6.p-2 Las organizaciones que adoptan <em>DevOps</em> pueden evolucionar y mejorar los productos de <em>software</em> mucho más rápido en comparación con aquellas que utilizan procesos de desarrollo de <em>software</em> tradicionales.
-          p.texto-superior-tarjeta5-tema6.p-2 DevOps es un puente entre el desarrollo y las operaciones en una organización y tiene como objetivo mejorar la productividad en su conjunto.
-          p.texto-inferior-tarjeta5-tema6.p-3 Así, las empresas que han empleado prácticas de <em>DevOps</em> dedican un 21% menos de tiempo al trabajo no planificado y al retrabajo, y un 44% más de tiempo al trabajo nuevo que conduce a una mayor eficiencia. Los tipos de metodología que implementan este tipo de estrategias son metodologías ágiles tales como Scrum y Kanban, porque requieren de un control constante de cada uno de los procesos que se realizan en los proyectos.
+          p.texto-superior-tarjeta5-tema6.p-2 <em>DevOps</em> es un puente entre el desarrollo y las operaciones en una organización y tiene como objetivo mejorar la productividad en su conjunto.
+          p.texto-inferior-tarjeta5-tema6.p-3 Así, las empresas que han empleado prácticas de <em>DevOps</em> dedican un 21% menos de tiempo al trabajo no planificado y al retrabajo, y un 44% más de tiempo al trabajo nuevo que conduce a una mayor eficiencia. Los tipos de metodología que implementan este tipo de estrategias son metodologías ágiles tales como <em>Scrum</em> y <em>Kanban</em>, porque requieren de un control constante de cada uno de los procesos que se realizan en los proyectos.
 
         .col-lg-6
           figure
@@ -90,9 +90,9 @@
       
         .row(titulo="CI/CD Integracionistas Continua")
           .col-md-6.mb-4.mb-md-0
-            p La integración continua <em>CI/CD</em> (<em>continuous integration</em>) es una práctica donde los desarrolladores combinan el código en un repositorio común, facilitando la realización de test o pruebas para detectar y resolver posibles errores. Con la CI se impide que se desarrollen distintas divisiones de una aplicación que luego puedan tener conflictos entre sí.
+            p La integración continua <em>CI/CD</em> (<em>continuous integration</em>) es una práctica donde los desarrolladores combinan el código en un repositorio común, facilitando la realización de <em>test</em> o pruebas para detectar y resolver posibles errores. Con la <em>CI</em> se impide que se desarrollen distintas divisiones de una aplicación que luego puedan tener conflictos entre sí.
             p Los desarrolladores integran periódicamente su código en el repositorio central (como <em>GitHub</em>) en lugar de realizarlo de forma aislada al final del ciclo de producción (como se realizaba de forma tradicional). De esta manera, se descubren antes los conflictos entre los nuevos códigos y los existentes, haciendo que la resolución de los mismos sea más sencilla y acarree un menor coste.
-            p En la integración continua, los test son fundamentales para poder garantizar que el código es confiable y será necesario contar con un sistema automatizado para poder realizar todo el proceso de integración de código y test (pruebas unitarias o testing de resolución, por ejemplo).
+            p En la integración continua, los <em>test</em> son fundamentales para poder garantizar que el código es confiable y será necesario contar con un sistema automatizado para poder realizar todo el proceso de integración de código y <em>test</em> (pruebas unitarias o <em>testing</em> de resolución, por ejemplo).
             p En el desarrollo moderno de aplicaciones, los equipos están compuestos por distintos desarrolladores que trabajan de forma simultánea en distintas funciones del programa. Con la integración continua estos desarrolladores podrán ir integrando o probando sus cambios y comprobando que funcionen de forma correcta y no entren en conflicto con los cambios de otros desarrolladores.
             p En el desarrollo de <em>software</em>, la integración continua es uno de los pilares en los que se basan metodologías como <em>DevOps</em> para conseguir reducir costos a la vez que se incrementa la calidad y agilidad en el desarrollo.
 
@@ -105,7 +105,7 @@
         
         .row(titulo="Entrega continua")
           .col-md-6.mb-4.mb-md-0
-            p La entrega continua está relacionada con la integración continua que consiste en la automatización del proceso de entrega del <em>software</em>, permitiendo que pueda ser implementado en producción de forma confiable y sencilla. De forma práctica se puede entender la CD como la entrega de actualizaciones de <em>software</em> a los usuarios o clientes de forma sólida y continua.
+            p La entrega continua está relacionada con la integración continua que consiste en la automatización del proceso de entrega del <em>software</em>, permitiendo que pueda ser implementado en producción de forma confiable y sencilla. De forma práctica se puede entender la <em>CD</em> como la entrega de actualizaciones de <em>software</em> a los usuarios o clientes de forma sólida y continua.
             p La entrega continua en <em>DevOps</em> automatiza todo este proceso, desde que se integra el código en el repositorio único, se realizan las pruebas y comprueban los cambios hasta la entrega al usuario.
             p La entrega continua se conoce como el siguiente paso o extensión de la integración continua. Tiene como objetivo principal conseguir que la entrega de los nuevos cambios o actualizaciones del <em>software</em> a los clientes se realicen de forma ágil y fiable.
             p A pesar que la automatización es una de las características de la entrega continua, esta fase del desarrollo del software tiene un componente de intervención humana, en la entrega continua los desarrolladores controlan cuándo y cuántas veces se realiza la entrega de <em>software</em>, la entrega continua acelera la entrega de <em>software</em> a los usuarios y puede ser realizada varias veces al día, a la semana, o según las necesidades o características de cada proyecto de desarrollo.

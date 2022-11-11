@@ -11,7 +11,7 @@
 
     .row.justify-content-around.align-items-center
     
-          p.p-2 Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos las temáticas referentes a la configuración de redes y los diferentes servicios que se utilizan a nivel de despliegue para las diferentes aplicaciones que se desarrollan en una empresa. Se estudiará el uso de repositorios de código a nivel mundial, la configuración de servidores para el manejo y despliegue de aplicaciones y bases de datos como servicios y componentes funcionales dentro de un proyecto de software. Además, como aprendizaje final, la configuración y despliegue de servicios en la nube.
+          p.p-2 Apreciado aprendiz, bienvenido a este componente formativo, donde abordaremos las temáticas referentes a la configuración de redes y los diferentes servicios que se utilizan a nivel de despliegue para las diferentes aplicaciones que se desarrollan en una empresa. Se estudiará el uso de repositorios de código a nivel mundial, la configuración de servidores para el manejo y despliegue de aplicaciones y bases de datos como servicios y componentes funcionales dentro de un proyecto de <em> software.</em> Además, como aprendizaje final, la configuración y despliegue de servicios en la nube.
           p.p-2 En el siguiente video conocerá, de forma general, la temática que se estudiará a lo largo del componente formativo.
 
     .row.tarjeta.tarjeta--blanca.p-2.p-md-3

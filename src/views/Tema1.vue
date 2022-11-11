@@ -22,7 +22,7 @@
 
     .row.justify-content-around.align-items-center
 
-        p #[strong Ahora, la configuración de una red depende de su tipología y necesidades que se requieran para la comunicación de la información. Existen redes inalámbricas y redes cableadas y para estos casos particulares, su configuración puede variar de acuerdo a la implementación.]
+        p #[strong Ahora, la configuración de una <em>red</em> depende de su tipología y necesidades que se requieran para la comunicación de la información. Existen redes inalámbricas y redes cableadas y para estos casos particulares, su configuración puede variar de acuerdo a la implementación.]
 
         br
         br
@@ -38,7 +38,7 @@
               .col-md-6.mb-4.mb-md-0
                 //h4 Celebrate your failures 1
                 p Utilizan diferentes tipos de filamentos en cables para el transporte de la información.
-                p Como podemos observar en la imagen, la conexión que se da entre cada dispositivo que pertenece a la red se hace a través de un cable conductor el cual transporta los datos e información y que puede ser compartida con otros dispositivos que se encuentran en ella. Es una de las más utilizadas porque ofrece como ventaja la seguridad, estabilidad y velocidad en el transporte de información, estas requieren para su configuración dispositivos tales como <em>routers</em>, los cuales se encargan de darle transporte a la información y solicitudes realizadas por el cliente.
+                p Como podemos observar en la imagen, la conexión que se da entre cada dispositivo que pertenece a la <em>red</em> se hace a través de un cable conductor el cual transporta los datos e información y que puede ser compartida con otros dispositivos que se encuentran en ella. Es una de las más utilizadas porque ofrece como ventaja la seguridad, estabilidad y velocidad en el transporte de información, estas requieren para su configuración dispositivos tales como <em>routers</em>, los cuales se encargan de darle transporte a la información y solicitudes realizadas por el cliente.
 
 
           .py-3.py-md-4(titulo="Redes inalámbricas")
@@ -166,7 +166,7 @@
       .row
         .col-lg-10
           .cajon.color-primario.cajon-color-direccion-ip.p-4
-            p Y un comando ping – t es un derivado del comando anterior, con la particularidad que este realiza un conjunto de más de 4 peticiones para realizar una estadística de las respuestas y los tiempos que le toma al dispositivo entregar las diferentes respuestas a las solicitudes que hace a los diferentes nodos o equipos que se encuentran en la <em>red</em>, esto se realiza para obtener información detallada de la interacción de este equipo con los otros en la <em>red</em>. La siguiente imagen nos presenta un ejemplo de este comando.
+            p Y un comando <em>ping</em> – t es un derivado del comando anterior, con la particularidad que este realiza un conjunto de más de 4 peticiones para realizar una estadística de las respuestas y los tiempos que le toma al dispositivo entregar las diferentes respuestas a las solicitudes que hace a los diferentes nodos o equipos que se encuentran en la <em>red</em>, esto se realiza para obtener información detallada de la interacción de este equipo con los otros en la <em>red</em>. La siguiente imagen nos presenta un ejemplo de este comando.
 
     br
     br
@@ -213,39 +213,39 @@
             
             tr.color-fila-tabla
               td.separacion-columna-tabla-tema1 -a
-              td.texto-tabla-tema1 Resolver direcciones en nombres de host.
+              td.texto-tabla-tema1 Resolver direcciones en <em>nombres de host.</em>
 
             tr
-              td.separacion-columna-tabla-tema1 -n count
+              td.separacion-columna-tabla-tema1 <em>-n count</em>
               td.texto-tabla-tema1 Número de solicitudes de eco para enviar.
 
             tr.color-fila-tabla
-              td.separacion-columna-tabla-tema1 -l size
+              td.separacion-columna-tabla-tema1 <em>-l size</em>
               td.texto-tabla-tema1 Enviar tamaño de búfer.
 
             tr
-              td.separacion-columna-tabla-tema1 -f
-              td.texto-tabla-tema1 Establecer marca, no fragmentar en paquetes (solo IPv4).
+              td.separacion-columna-tabla-tema1 <em>-f</em>
+              td.texto-tabla-tema1 Establecer marca, no fragmentar en paquetes (solo <em>IPv4</em>).
 
             tr.color-fila-tabla
-              td.separacion-columna-tabla-tema1 -v TOS
-              td.texto-tabla-tema1 Tipo de servicio (solo IPv4. Esta opción está desusada y no tiene ningún efecto sobre el campo de tipo de servicio del encabezado IP).
+              td.separacion-columna-tabla-tema1 <em>-v TOS</em>
+              td.texto-tabla-tema1 Tipo de servicio (solo <em>IPv4</em>. Esta opción está desusada y no tiene ningún efecto sobre el campo de tipo de servicio del encabezado IP).
 
             tr
-              td.separacion-columna-tabla-tema1 -r count
-              td.texto-tabla-tema1 Registrar la ruta de saltos de cuenta (solo IPv4).
+              td.separacion-columna-tabla-tema1 <em>-r count</em>
+              td.texto-tabla-tema1 Registrar la ruta de saltos de cuenta (solo <em>IPv4</em>).
             
             tr.color-fila-tabla
-              td.separacion-columna-tabla-tema1 -j host-list
-              td.texto-tabla-tema1 Ruta de origen no estricta para lista-host (solo IPv4).
+              td.separacion-columna-tabla-tema1 <em>-j host-list</em>
+              td.texto-tabla-tema1 Ruta de origen no estricta para lista-<em>host</em> (solo <em>IPv4</em>).
 
             tr
               td.separacion-columna-tabla-tema1 -4
-              td.texto-tabla-tema1 Forzar el uso de IPv4.
+              td.texto-tabla-tema1 Forzar el uso de <em>IPv4.</em>
 
             tr.color-fila-tabla
               td.separacion-columna-tabla-tema1 -6
-              td.texto-tabla-tema1 Forzar el uso de IPv6.
+              td.texto-tabla-tema1 Forzar el uso de <em>IPv6.</em>
 
 
 

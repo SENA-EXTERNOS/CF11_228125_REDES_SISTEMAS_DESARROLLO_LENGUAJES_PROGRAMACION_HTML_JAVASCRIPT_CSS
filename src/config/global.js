@@ -31,6 +31,14 @@ export default {
         clases: ['banner-principal-decorativo-6'],
         imagen: require('@/assets/curso/portada/triangulos-verticales-derecha.svg'),
       },
+      {
+        clases: ['banner-principal-decorativo-7'],
+        imagen: require('@/assets/curso/portada/img-equis-izq.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-8'],
+        imagen: require('@/assets/curso/portada/puntos-tenues-superiores.svg'),
+      },
     ],
   },
   menuPrincipal: {
@@ -239,11 +247,6 @@ export default {
         'es una plataforma de versionamiento de código que permite controlar los cambios realizados en la misma.',
     },
     {
-      termino: 'Base de datos',
-      significado:
-        'es un <em>software</em> que permite almacenar información de manera permanente y organizada es considerado uno de los mejores modelos de almacenamiento de información.',
-    },
-    {
       termino: '<em>GITHUB</em>',
       significado:
         'es una plataforma de repositorio de código para trabajar de manera colaborativa entre equipos de desarrollo de <em>software.</em>',
@@ -297,7 +300,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Dauzon, S. (2022). Git : Controle la gestión de sus versiones (conceptos, utilización y casos prácticos) (2ª edición). Ediciones ENI.',
+        'Dauzon, S. (2022). <em>Git : Controle la gestión de sus versiones (conceptos, utilización y casos prácticos)</em> (2ª edición). Ediciones ENI.',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_biblioteca_eniEPT3GIT',
     },
