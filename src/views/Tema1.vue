@@ -229,7 +229,7 @@
 
             tr.color-fila-tabla
               td.separacion-columna-tabla-tema1 <em>-v TOS</em>
-              td.texto-tabla-tema1 Tipo de servicio (solo <em>IPv4</em>. Esta opción está desusada y no tiene ningún efecto sobre el campo de tipo de servicio del encabezado IP).
+              td.texto-tabla-tema1 Tipo de servicio (solo <em>IPv4</em>. Esta opción está desusada y no tiene ningún efecto sobre el campo de tipo de servicio del encabezado <em>IP</em>).
 
             tr
               td.separacion-columna-tabla-tema1 <em>-r count</em>

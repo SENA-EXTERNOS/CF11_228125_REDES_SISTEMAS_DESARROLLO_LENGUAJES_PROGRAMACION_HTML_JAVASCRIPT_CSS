@@ -84,7 +84,7 @@
 
     .row.justify-content-around.align-items-center
 
-      p #[strong En DevOps, debemos hablar de dos temas importantes:]
+      p #[strong En <em>DevOps</em>, debemos hablar de dos temas importantes:]
 
       AcordionA(tipo="a" clase-tarjeta="tarjeta ").tarjeta.fondo-tarjetas-acordeon-tema6
       
