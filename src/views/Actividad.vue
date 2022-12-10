@@ -14,7 +14,7 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/curso/temas/imagen-actividad-didactica.png", alt="Texto que describa la imagen")
+            img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
 
       .col-12.col-md-8.col-lg-9
         .titulo-segundo.color-acento-botones
