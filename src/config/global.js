@@ -60,20 +60,20 @@ export default {
         numero: '1',
         titulo: 'Redes',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            //numero: '1.1',
-            titulo: 'Roles y usuarios',
-            hash: 'roles_y_usuarios',
-          },
-          {
-            icono: 'far fa-file-alt',
-            //numero: '1.1',
-            titulo: 'Comandos de red',
-            hash: 'comandos_de_red',
-          },
-        ],
+        //subMenu: [
+        //  {
+        //    icono: 'far fa-file-alt',
+        //    //numero: '1.1',
+        //    titulo: 'Roles y usuarios',
+        //    hash: 'roles_y_usuarios',
+        //  },
+        //  {
+        //    icono: 'far fa-file-alt',
+        //    //numero: '1.1',
+        //    titulo: 'Comandos de red',
+        //    hash: 'comandos_de_red',
+        //  },
+        //],
       },
 
       {
@@ -96,20 +96,20 @@ export default {
         numero: '4',
         titulo: 'Instalación y configuración de servidores',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            //numero: '1.1',
-            titulo: 'Contenedor web',
-            hash: 'contenedor_web',
-          },
-          {
-            icono: 'far fa-file-alt',
-            //numero: '1.1',
-            titulo: 'Base de datos',
-            hash: 'base_de_datos',
-          },
-        ],
+        //subMenu: [
+        //  {
+        //    icono: 'far fa-file-alt',
+        //    //numero: '1.1',
+        //    titulo: 'Contenedor web',
+        //    hash: 'contenedor_web',
+        //  },
+        //  {
+        //    icono: 'far fa-file-alt',
+        //    //numero: '1.1',
+        //    titulo: 'Base de datos',
+        //    hash: 'base_de_datos',
+        //  },
+        //],
       },
       {
         nombreRuta: 'tema5',
@@ -124,14 +124,14 @@ export default {
         numero: '6',
         titulo: 'Estrategia DevOps',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            //numero: '1.1',
-            titulo: 'Automatización',
-            hash: 'automatizacion',
-          },
-        ],
+        //subMenu: [
+        //  {
+        //    icono: 'far fa-file-alt',
+        //    //numero: '1.1',
+        //    titulo: 'Automatización',
+        //    hash: 'automatizacion',
+        //  },
+        //],
       },
       {
         nombreRuta: 'tema7',
@@ -139,14 +139,14 @@ export default {
         numero: '7',
         titulo: 'Técnicas de codificación y manejo de los servicios en la nube',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            //numero: '1.1',
-            titulo: 'Automatización',
-            hash: 'automatizacion',
-          },
-        ],
+        //subMenu: [
+        //  {
+        //    icono: 'far fa-file-alt',
+        //    //numero: '1.1',
+        //    titulo: 'Automatización',
+        //    hash: 'automatizacion',
+        //  },
+        //],
       },
     ],
     subMenu: [
