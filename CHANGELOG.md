@@ -166,7 +166,7 @@ Estos son los cambios hechos en la ECORED-BASE-2021
 ### Agregado
 
 - Ultima version de Bootstrap 5.0.1
-- Separador en forma de componente de Vue 'Separador'
+-  en forma de componente de Vue ''
 - Directiva que permite que los componentes dinámicos interactuen con Vue
 - Titulo '.titulo-sexto'
 - Creditos

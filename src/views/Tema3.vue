@@ -36,8 +36,8 @@
 
             .col-md-6.mb-4.mb-md-0
               //h4 Celebrate your failures 1
-              p.texto-pestanas-horizontales-tema2 <em>Git</em> es, con diferencia, el sistema de control de versiones moderno más utilizado del mundo. Es un proyecto de código abierto maduro y con un mantenimiento activo que desarrolló originalmente <em>Linus Torvalds</em>, el famoso creador del <em>kernel</em> del sistema operativo <em>Linux</em> en 2005. Este sistema funciona a la perfección en una amplia variedad de sistemas operativos e <em>IDE</em> (entornos de desarrollo integrados).
-              p.texto-pestanas-horizontales-tema2 Las características básicas de rendimiento de <em>Git</em> son muy sólidas en comparación con muchas otras alternativas. Los algoritmos implementados en <em>Git</em> aprovechan el profundo conocimiento sobre los atributos comunes de los auténticos árboles de archivos de código fuente, cómo suelen modificarse con el paso del tiempo y cuáles son los patrones de acceso. Su arquitectura distribuida también permite disfrutar de importantes ventajas en términos de rendimiento.
+              p.texto-pestanas-horizontales-tema2 Git es, con diferencia, el sistema de control de versiones moderno más utilizado del mundo. Es un proyecto de código abierto maduro y con un mantenimiento activo que desarrolló originalmente Linus Torvalds, el famoso creador del Kernel del sistema operativo Linux en el 2005. Este sistema funciona a la perfección en una amplia variedad de sistemas operativos y en IDE (Entorno de Desarrollo Integrado).
+              p.texto-pestanas-horizontales-tema2 Las características básicas del rendimiento de Git, son muy sólidas en comparación con muchas otras alternativas. Los algoritmos implementados en Git aprovechan el profundo conocimiento sobre los atributos comunes de los auténticos árboles de archivos de código fuente, cómo suelen modificarse con el paso del tiempo y cuáles son los patrones de acceso. Su arquitectura distribuida, también permite disfrutar de importantes ventajas en términos de rendimiento.
 
 
         .py-3.py-md-4(titulo="GITHUB")
@@ -48,9 +48,9 @@
                 //figcaption Leyenda de la imagen
             .col-md-6
               //h4 Celebrate your failures 2
-              p.texto-pestanas-horizontales-tema2 <em>GitHub</em> es un sitio <em>“social coding”</em>. Permite subir repositorios de código para almacenarlo en el sistema de control de versiones <em>Git</em>. El sistema es código abierto por defecto, lo que significa que cualquiera en el mundo puede encontrar su código en <em>GitHub</em>, usarlo, aprender de él, y mejorarlo.
+              p.texto-pestanas-horizontales-tema2 GitHub es un sitio “<i>social coding</i>”. Permite subir repositorios de código para almacenarlo en el sistema de control de versiones Git. El sistema es código abierto por defecto, lo que significa que cualquiera en el mundo puede encontrar su código en GitHub, usarlo, aprender de él, y mejorarlo.
               p.texto-pestanas-horizontales-tema2 Es considerado hasta el momento como uno de los mejores gestores de código fuente del mundo, debido a que permite realizar actualizaciones en tiempo real del mismo y también controlar mediante permisos qué personas pueden realizar cambios en el código fuente.
-              p.texto-pestanas-horizontales-tema2 <em>GitHub</em> es una forja para alojar proyectos utilizando el sistema de control de versiones <em>Git</em>. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El <em>software</em> que opera <em>GitHub</em> fue escrito en <em>Ruby on Rails.</em> 
+              p.texto-pestanas-horizontales-tema2 GitHub es una forja para alojar proyectos, utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El <i>software</i> que opera GitHub fue escrito en <i>Ruby on Rails</i>. 
         
         .py-3.py-md-4(titulo="GITLAB")
           .row
@@ -60,7 +60,7 @@
                 //figcaption Leyenda de la imagen
             .col-md-6
               //h4 Celebrate your failures 2
-              p.texto-pestanas-horizontales-tema2 <em>GitLab</em> es una <em>suite</em> completa que permite gestionar, administrar, crear y conectar los repositorios con diferentes aplicaciones y hacer todo tipo de integraciones con ellas, ofreciendo un ambiente y una plataforma en la cual se pueden realizar varias etapas de <em>SDLC/ADLC</em> y <em>DevOps.</em>
+              p.texto-pestanas-horizontales-tema2 GitLab es una <i>suite</i> completa que permite gestionar, administrar, crear y conectar los repositorios con diferentes aplicaciones y hacer todo tipo de integraciones con ellas, ofreciendo un ambiente y una plataforma en la cual se pueden realizar varias etapas de SDLC/ADLC y DevOps.
               p.texto-pestanas-horizontales-tema2 Esta <em>suite</em>, gestiona cualquier tipo de repositorio de códigos y establece las integraciones de los diferentes códigos que esta pueda contener, en otras palabras, podríamos decir que <em>GITLAB</em> es una plataforma que contiene un ambiente para integrar varios códigos de proyectos al mismo tiempo, esto con los desafíos que tienen las infraestructuras actuales en desarrollo de <em>software</em>, ofrece una gran ventaja porque en los equipos de desarrollo no es necesario que implementen varias herramientas sino que tienen todo lo que requieren en un mismo ambiente de trabajo, adicional a esto, se pueden manejar todas las etapas del desarrollo de un proyecto de <em>software</em> desde la creación del proyecto, codificación y despliegue de la misma.
 
     br
@@ -74,7 +74,7 @@
                 img(data-aos="fade-down-right")(src='@/assets/curso/temas/imagen-tarjeta-color-tema3.png', alt='Texto que describa la imagen')
         
         .col-lg-7.color-columna-der-ultima-tarjeta-color-tema2
-          p(data-aos="fade-left").texto-ultima-tarjeta-color-tema2.p-3 A diferencia de algunos programas de <em>software</em> de control de versiones, <em>Git</em> no se deja engañar por los nombres de los archivos a la hora de determinar cuál debería ser el almacenamiento y el historial de versiones del árbol de archivos, en lugar de esto, se centra en el contenido del propio archivo. En definitiva, los archivos de código fuente cambian de nombre, se dividen y se reorganizan con frecuencia. El formato de objeto de los archivos del repositorio de <em>Git</em>, emplea una combinación de codificación delta (que almacena las diferencias de contenido) y compresión, guardando explícitamente el contenido de los directorios y los objetos de metadatos de las versiones.
+          p(data-aos="fade-left").texto-ultima-tarjeta-color-tema2.p-3 A diferencia de algunos programas de <i>software</i> para control de versiones, Git no se deja engañar por los nombres de los archivos a la hora de determinar cuál debería ser el almacenamiento y el historial de versiones del árbol de archivos; en lugar de esto, se centra en el contenido del propio archivo. En definitiva, los archivos de código fuente cambian de nombre, se dividen y se reorganizan con frecuencia. El formato de objeto de los archivos del repositorio de Git, emplea una combinación de codificación delta (que almacena las diferencias de contenido) y compresión, guardando explícitamente el contenido de los directorios y los objetos de metadatos de las versiones.
 
     br
     br

@@ -42,7 +42,7 @@ div
 
   p.mb-0 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis. Maecenas cursus ante a diam porttitor mollis. Etiam vehicula dictum diam, eu pulvinar odio ultrices non. Vivamus viverra fermentum tortor, sit amet interdum nisl fermentum sed.
 
-  Separador
+  
 
   #parrafos.titulo-segundo.color-acento-botones(data-aos="flip-up")
     h2 Párrafos
@@ -56,7 +56,7 @@ div
     span.etiqueta etiquetas
     | de color (según paleta del programa). Así mismo, el ancho de los cajones textos permite variación en las doce (12) columnas.
 
-  Separador
+  
 
   #botones.titulo-segundo.color-acento-botones
     h2 Botones
@@ -108,7 +108,7 @@ div
       span Descargar
       i.fas.fa-file-download
 
-  Separador
+  
 
   #listas.titulo-segundo.color-acento-botones
     h2 Listas
@@ -181,8 +181,8 @@ div
           span.text-bold e. 
           | Item lista ordenada e
     .col-sm
-      h4 Listado ordenado básico + separadores
-      ol.lista-ol.lista-ol--separador
+      h4 Listado ordenado básico + es
+      ol.lista-ol.lista-ol--
         li 
           span.text-bold a. 
           | Item lista ordenada a
@@ -247,8 +247,8 @@ div
             span e
           | Item lista ordenada e
     .col-sm.mb-5.mb-sm-0
-      h4 Listado ordenado cuadro color + separadores
-      ol.lista-ol--cuadro.lista-ol--separador
+      h4 Listado ordenado cuadro color + es
+      ol.lista-ol--cuadro.lista-ol--
         li 
           .lista-ol--cuadro__vineta
             span a
@@ -316,8 +316,8 @@ div
           | Item lista no ordenada
 
     .col-sm
-      h4 Listado no ordenado básico + separadores
-      ul.lista-ul--separador
+      h4 Listado no ordenado básico + es
+      ul.lista-ul--
         li 
           i.fas.fa-angle-right
           | Item lista no ordenada
@@ -381,8 +381,8 @@ div
           | Item lista no ordenada
 
     .col-sm
-      h4 Listado no ordenado color + separadores
-      ul.lista-ul--color.lista-ul--separador
+      h4 Listado no ordenado color + es
+      ul.lista-ul--color.lista-ul--
         li 
           i.fas.fa-feather
           | Item lista no ordenada
@@ -401,7 +401,7 @@ div
           i.fas.fa-kiwi-bird
           | Item lista no ordenada
 
-  Separador
+  
 
   #tablas.titulo-segundo.color-acento-botones
     h2 Tablas
@@ -530,7 +530,7 @@ div
         td
           .h6 FDSD33
 
-  Separador
+  
 
   #imagen.titulo-segundo.color-acento-botones
     h2 Imagen
@@ -560,7 +560,7 @@ div
         .imagen-titulo__titulo
           h4.m-0 Titulo de imagen
 
-  Separador
+  
 
   #imagen_infografica.titulo-segundo.color-acento-botones
     h2 Imagen Infográfica
@@ -618,7 +618,7 @@ div
       :alta-resolucion="require('@/assets/curso/alta.jpeg')"
     )
     .indicador--hover(v-if="indicadorImagenZoom")
-  Separador
+  
 
   #video.titulo-segundo.color-acento-botones
     h2 Video
@@ -628,7 +628,7 @@ div
       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     figcaption Video: Leyenda del video
 
-  Separador
+  
 
   #texto_destacado.titulo-segundo.color-acento-botones
     h2 Bloques de texto destacado
@@ -782,7 +782,7 @@ div
         br
         | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure. 
 
-  Separador
+  
 
   #sliders.titulo-segundo.color-acento-botones
     h2 Sliders
@@ -1010,7 +1010,7 @@ div
       span.carousel-control-next-icon(aria-hidden='true')
       span.visually-hidden Next
 
-  Separador
+  
 
   #acordiones.titulo-segundo.color-acento-botones
     h2 Acordiones
@@ -1074,7 +1074,7 @@ div
         img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
         figcaption Leyenda de la imagen
 
-  Separador
+  
 
   #tabs.titulo-segundo.color-acento-botones
     h2 Pestañas o Tabs
@@ -1311,7 +1311,7 @@ div
           h4 Celebrate your failures 6
           p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
 
-  Separador
+  
 
   #lineas_tiempo.titulo-segundo.color-acento-botones
     h2 Líneas de tiempo
@@ -1515,7 +1515,7 @@ div
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
 
-  Separador
+  
 
   #pasos.titulo-segundo.color-acento-botones
     h2 Pasos
@@ -1647,7 +1647,7 @@ div
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
 
-  Separador
+  
 
   #llamados_accion.titulo-segundo.color-acento-botones
     h2 Llamados a la acción
@@ -1783,7 +1783,7 @@ div
         .anexo__texto
           p Anexo. Consideraciones generales de tratamiento clínico del paciente con COVID-19 en el servicio de urgencias
 
-  Separador
+  
 
   #tarjetas.titulo-segundo.color-acento-botones
     h2 Tarjetas
@@ -2158,7 +2158,7 @@ div
           b Dirigir a los miembros del equipo 
           | para que las actividades se cumplan según lo establecido en el plan.
 
-  Separador
+  
 
   #modal.titulo-segundo.color-acento-botones
     h2 Modal
@@ -2184,7 +2184,7 @@ div
           img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
           figcaption Leyenda de la imagen
 
-  Separador
+  
 
   #modal.titulo-segundo.color-acento-botones
     h2 Animaciones

@@ -60,20 +60,6 @@ export default {
         numero: '1',
         titulo: 'Redes',
         desarrolloContenidos: true,
-        //subMenu: [
-        //  {
-        //    icono: 'far fa-file-alt',
-        //    //numero: '1.1',
-        //    titulo: 'Roles y usuarios',
-        //    hash: 'roles_y_usuarios',
-        //  },
-        //  {
-        //    icono: 'far fa-file-alt',
-        //    //numero: '1.1',
-        //    titulo: 'Comandos de red',
-        //    hash: 'comandos_de_red',
-        //  },
-        //],
       },
 
       {
@@ -96,26 +82,12 @@ export default {
         numero: '4',
         titulo: 'Instalación y configuración de servidores',
         desarrolloContenidos: true,
-        //subMenu: [
-        //  {
-        //    icono: 'far fa-file-alt',
-        //    //numero: '1.1',
-        //    titulo: 'Contenedor web',
-        //    hash: 'contenedor_web',
-        //  },
-        //  {
-        //    icono: 'far fa-file-alt',
-        //    //numero: '1.1',
-        //    titulo: 'Base de datos',
-        //    hash: 'base_de_datos',
-        //  },
-        //],
       },
       {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Manejo de herramientas de desarrollo de software: IDEs',
+        titulo: 'Manejo de herramientas de desarrollo de <i>software</i>: IDEs',
         desarrolloContenidos: true,
       },
       {
@@ -124,14 +96,6 @@ export default {
         numero: '6',
         titulo: 'Estrategia DevOps',
         desarrolloContenidos: true,
-        //subMenu: [
-        //  {
-        //    icono: 'far fa-file-alt',
-        //    //numero: '1.1',
-        //    titulo: 'Automatización',
-        //    hash: 'automatizacion',
-        //  },
-        //],
       },
       {
         nombreRuta: 'tema7',
@@ -139,14 +103,6 @@ export default {
         numero: '7',
         titulo: 'Técnicas de codificación y manejo de los servicios en la nube',
         desarrolloContenidos: true,
-        //subMenu: [
-        //  {
-        //    icono: 'far fa-file-alt',
-        //    //numero: '1.1',
-        //    titulo: 'Automatización',
-        //    hash: 'automatizacion',
-        //  },
-        //],
       },
     ],
     subMenu: [
@@ -193,28 +149,28 @@ export default {
     {
       tema: 'Sistemas operativos',
       referencia:
-        'TecnoMáticas. (2020). Sistemas Operativos ¿Qué es? Características, tipos, función, TODO sobre S.O. (video). YouTube.',
+        'TecnoMáticas. (2020). <i>Sistemas Operativos ¿Qué es? Características, tipos, función, TODO sobre S.O.</i> (video). YouTube.',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=1C8x3nn-u_w',
     },
     {
       tema: 'Instalación y configuración de servidores',
       referencia:
-        'Digitalthinking with sotobotero. (2021). Docker y kubernetes sobre Windows 10 wls2 ',
+        'Digitalthinking with sotobotero. (2021). <i>Docker y kubernetes sobre Windows 10 wls2</i> ',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=OGtLAMUyDrc',
     },
     {
-      tema: 'Manejo de herramientas de desarrollo de software: IDEs',
+      tema: 'Manejo de herramientas de desarrollo de <i>software</i>: IDEs',
       referencia:
-        'OS Infor. (2019). Metodologías del desarrollo software – Análisis y diseño (video).',
+        'OS Infor. (2019). <i>Metodologías del desarrollo software – Análisis y diseño</i> (video).',
       tipo: 'Video',
       link: 'https://www.youtube.com/watch?v=5tyU_h69F-s&t=310s',
     },
     {
       tema: 'Técnicas de codificación y manejo de servicios en la nube',
       referencia:
-        'Païola, P. (2021). Microsoft Azure : Gestione su Sistema de Información en la Nube. Ediciones ENI.',
+        'Païola, P. (2021). <i>Microsoft Azure : Gestione su Sistema de Información en la Nube</i>. Ediciones ENI.',
       tipo: 'Video',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_biblioteca_eniEPT3AZWIN&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
@@ -247,22 +203,22 @@ export default {
         'es una plataforma de versionamiento de código que permite controlar los cambios realizados en la misma.',
     },
     {
-      termino: '<em>GITHUB</em>',
+      termino: 'GITHUB',
       significado:
         'es una plataforma de repositorio de código para trabajar de manera colaborativa entre equipos de desarrollo de <em>software.</em>',
     },
     {
       termino: '<em>IaaS</em>',
       significado:
-        'en este tipo de servicios estamos hablando de infraestructuras como servicio. Las empresas contratan la infraestructura de hardware a un tercero a cambio de una cuota o alquiler. La contratación de este hardware permite elegir la capacidad de proceso (procesadores), la memoria a utilizar (memoria <em>RAM</em>) y el espacio de almacenamiento (disco duro).',
+        'en este tipo de servicios estamos hablando de infraestructuras como servicio. Las empresas contratan la infraestructura de <i>hardware</i> a un tercero a cambio de una cuota o alquiler. La contratación de este <i>hardware</i> permite elegir la capacidad de proceso (procesadores), la memoria a utilizar (memoria RAM) y el espacio de almacenamiento (disco duro).',
     },
     {
-      termino: '<em>LINUX</em>',
+      termino: 'LINUX',
       significado:
-        'es un sistema operativo desarrollado por <em>Linus torvalds</em> y es considerado uno de los más seguros del mundo utilizado para gestionar grandes volúmenes de información.',
+        'es un sistema operativo desarrollado por Linus Torvalds y es considerado uno de los más seguros del mundo utilizado para gestionar grandes volúmenes de información',
     },
     {
-      termino: '<em>MAC OS</em>',
+      termino: 'MAC OS',
       significado:
         'es un sistema operativo desarrollado por la empresa <em>Apple</em> y está presente en muchos dispositivos tales como: tablets, celulares, computadores personales, servidores entre otros.',
     },
@@ -282,7 +238,7 @@ export default {
         'es una forma de poner a disposición <em>software</em> y soluciones de tecnología por medio de la internet, como un servicio. Con este modelo, la empresa no necesita instalar, mantener y actualizar <em>hardware</em> y <em>software.</em>',
     },
     {
-      termino: '<em>TDD</em>',
+      termino: 'TDD',
       significado:
         'es una técnica que se utiliza para realizar pruebas unitarias al código de una aplicación informática.',
     },
@@ -292,7 +248,7 @@ export default {
         'es el nombre que recibe una persona para hacer uso de un sistema informático.',
     },
     {
-      termino: '<em>Windows</em>',
+      termino: 'Windows',
       significado:
         'es un sistema operativo desarrollado por la empresa <em>Microsoft</em> y es considerado el más popular de todos.',
     },

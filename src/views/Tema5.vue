@@ -5,7 +5,7 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 5
-        h1 Manejo de herramientas de desarrollo de <em>software: IDEs</em>
+        h1 Manejo de herramientas de desarrollo de <em>software</em>: IDEs
       
             
       .row.justify-content-around.align-items-center
@@ -17,7 +17,7 @@
                 img(data-aos="fade-down-left")(src='@/assets/curso/temas/imagen-IDE-tema5.png', alt='Texto que describa la imagen').imagen-tarjeta1-tema5
             
           .col-lg-6.color-columna-der-tarjeta1-tema5
-            p(data-aos="fade-right").texto-tarjeta1-tema5.p-3 Las herramientas de desarrollo de <em>software</em> son las que hacen posible la construcción de las aplicaciones informáticas que manejamos a diario, son un tipo de <em>software</em> que permite la codificación y ensamble de dichos aplicativos. Ahora nos vamos a concentrar en los <em>IDEs</em>, lo que significa Entorno de desarrollo integrado, estos <em>software</em> permiten integrar tanto el <em>Front-end</em> como <em>Back-end</em>, es decir, permiten realizar las vistas o diseño del aplicativo como también la codificación del mismo y a su vez la integración de estos, un ejemplo podría ser <em>Visual Studio Code</em>, que solo permite la codificación de lo que denominamos <em>Back-end</em> pero no tiene un diseñador para la construcción de interface, es allí donde encontramos las primeras diferencias significativas. Un entorno de desarrollo integrado es una herramienta que tiene todos los componentes para desarrollar una aplicación desde su creación, diseño, codificación y pruebas.
+            p(data-aos="fade-right").texto-tarjeta1-tema5.p-3 Las herramientas de desarrollo de <i>software</i> son las que hacen posible la construcción de las aplicaciones informáticas que manejamos a diario y son un tipo de <i>software</i> que permite la codificación y ensamble de dichos aplicativos. Ahora nos vamos a concentrar en los IDEs, lo que significa Entorno de desarrollo integrado; estos <i>software</i> permiten integrar tanto el <i>Front-end</i> como <i>Back-end</i>, es decir, permiten realizar las vistas o diseño del aplicativo, como también la codificación del mismo y, a su vez, la integración de estos; un ejemplo podría ser Visual Studio Code, que solo permite la codificación de lo que denominamos <i>Back-end</i>, pero no tiene un diseñador para la construcción de interfaz y es ahí donde encontramos las primeras diferencias significativas. Un entorno de desarrollo integrado es una herramienta que tiene todos los componentes para desarrollar una aplicación desde su creación, diseño, codificación y pruebas.
             br
             br
             br
@@ -31,7 +31,7 @@
         .row
     
           .col-lg-6
-            p.texto-netbeans-tema5.p-3 En la imagen a continuación, se observa la creación de un <em>front-end</em> de un <em>software</em> desarrollado en un aplicativo llamado Netbeans, el cual es un IDE que trabaja con el lenguaje de programación <em>JAVA</em> y mediante un diseñador, se pueden agregar los componentes requeridos para que el usuario pueda interactuar con el sistema.
+            p.texto-netbeans-tema5.p-3 En la imagen a continuación, se observa la creación de un <i>front-end</i> de un <i>software</i> desarrollado en un aplicativo llamado Netbeans, el cual es un IDE que trabaja con el lenguaje de programación JAVA y mediante un diseñador, se pueden agregar los componentes requeridos para que el usuario pueda interactuar con el sistema.
             
           .col-lg-6
           
@@ -48,7 +48,8 @@
 
             
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 7.
+          h5 Figura 7
+          br
           span <em>Front-end</em>
 
 
@@ -68,7 +69,8 @@
       .row.justify-content-around.align-items-center
 
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 8.
+          h5 Figura 8
+          br
           span <em>Back-end</em>
 
 

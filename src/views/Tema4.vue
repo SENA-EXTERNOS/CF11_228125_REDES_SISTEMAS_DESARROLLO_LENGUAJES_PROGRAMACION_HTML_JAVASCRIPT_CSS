@@ -12,22 +12,20 @@
 
         .row.color-columna-izq-tarjeta1-tema3
           .col-lg-6
-            p.texto-tarjeta1-tema3.p-3 Para iniciar este proceso de exploración en instalación de servidores, debemos entender qué es un servidor, encontrando como definición que, es una computadora con unas características especiales en cuanto a rendimiento y almacenamiento, tiene como función principal ofrecer servicios a las diferentes computadoras que se encuentran conectadas a una <em>red</em>, estos servicios pueden ser almacenamiento de información, subida de archivos, bajada de archivos, procesamiento de información, correo electrónico, entre otras. Gracias a estas máquinas, es posible realizar el intercambio de información y utilizar los servicios que ahora usamos, tales como redes sociales, correo electrónico, entre otros. Los servidores son instalados en lugares donde el acceso a ellos es restringido y en algunas ocasiones con medidas de seguridad extrema porque la información que almacenan suele ser personal y no puede ser divulgada por terceros debido a que se generarían problemas con dicha información.
+            p.texto-tarjeta1-tema3.p-3 Para iniciar este proceso de exploración en la instalación de servidores, debemos entender qué es un servidor; se define como una computadora con unas características especiales en cuanto a rendimiento y almacenamiento, y tiene como función principal ofrecer servicios a las diferentes computadoras que se encuentran conectadas a una red; estos servicios pueden ser almacenamiento de información, subida de archivos, bajada de archivos, procesamiento de información, correo electrónico, entre otras. Gracias a estas máquinas, es posible realizar el intercambio de información y utilizar los servicios que ahora usamos, tales como redes sociales, correo electrónico, entre otros. Los servidores son instalados en lugares donde el acceso a ellos es restringido y, en algunas ocasiones, con medidas de seguridad extrema, porque la información que almacenan suele ser personal y no puede ser divulgada a terceros, debido a que se generarían problemas con dicha información.
 
           .col-lg-6
             
             figure
                 img(src='@/assets/curso/temas/imagen1-tema4.png', alt='Texto que describa la imagen').imagen-tarjeta1-tema3
-      separador
+      
 
       .row.justify-content-around.align-items-center
 
-        #contenedor_web
-        .titulo-segundo.color-acento-contenido
-          h2 Contenedor web
+        h3 Contenedor web
 
 
-        p Ahora bien, los contenedores son una forma de virtualización del sistema operativo. Un solo contenedor se puede usar para ejecutar cualquier cosa, desde un microservicio a un proceso de <em>software</em> en una aplicación de mayor tamaño. Dentro de un contenedor se encuentran todos los ejecutables, el código binario, las bibliotecas y los archivos de configuración necesarios. Sin embargo, en comparación con los métodos de virtualización de máquinas o servidores, los contenedores no llevan imágenes del sistema operativo, esto los hace más ligeros y portátiles, con una sobrecarga significativamente menor. En implementaciones de aplicaciones de mayor tamaño, se pueden poner en marcha varios contenedores como uno o varios <em>clústeres</em> de contenedores. Estos <em>clústeres</em> se pueden gestionar mediante un orquestador de contenedores, como <em>Kubernetes</em>.
+        p Ahora bien, los contenedores son una forma de virtualización del sistema operativo. Un solo contenedor se puede usar para ejecutar cualquier cosa, desde un microservicio a un proceso de <i>software</i> en una aplicación de mayor tamaño. Dentro de un contenedor se encuentran todos los ejecutables, el código binario, las bibliotecas y los archivos de configuración necesarios. Sin embargo, en comparación con los métodos de virtualización de máquinas o servidores, los contenedores no llevan imágenes del sistema operativo, esto los hace más ligeros y portátiles, con una sobrecarga significativamente menor. En implementaciones de aplicaciones de mayor tamaño, se pueden poner en marcha varios contenedores como uno o varios <i>clústeres</i> de contenedores. Estos clústeres se pueden gestionar mediante un orquestador de contenedores, como Kubernetes.
 
         .row.fondo-tarjeta2-tema3
           .col-lg-10
@@ -70,7 +68,7 @@
 
               .tarjeta.tarjeta-pestanas-verticales.clr-paleYellow.p-4(titulo="Funcionamiento más constante").bloque-texto-pestanas-verticales-tema4
                 h4 Funcionamiento más constante
-                p Los equipos de <em>DevOps</em> saben que las aplicaciones en contenedores van a ejecutarse igual, independientemente de donde se pongan en marcha.
+                p Los equipos de DevOps saben que las aplicaciones en contenedores van a ejecutarse igual, independientemente de donde se pongan en marcha.
               
               
               .tarjeta.tarjeta-pestanas-verticales.clr-paleYellow.p-4(titulo="Mayor eficiencia").bloque-texto-pestanas-verticales-tema4
@@ -80,7 +78,7 @@
               
               .tarjeta.tarjeta-pestanas-verticales.clr-paleYellow.p-4(titulo="Mejor desarrollo de aplicaciones").bloque-texto-pestanas-verticales-tema4
                 h4 Mejor desarrollo de aplicaciones
-                p Los contenedores respaldan los esfuerzos ágiles y de <em>DevOps</em> para acelerar los ciclos de desarrollo, prueba y producción.
+                p Los contenedores respaldan los esfuerzos ágiles y de DevOps para acelerar los ciclos de desarrollo, prueba y producción.
 
 
           .col-lg-4.order-1.order-lg-2.mb-4.mb-lg-0(data-aos="zoom-in")
@@ -92,23 +90,21 @@
         .row
           .col-lg-10
             .cajon.color-acento-botones.cajon-color-comando-ping-t.p-4
-              p Para tener mayor compresión sobre la instalación de este servicio, lo invitamos a ver el video <em>Docker</em> y <em>kubernetes</em> sobre <em>Windows 10 wls</em>, el cual se encuentra en el material complementario.
+              p Para tener mayor compresión sobre la instalación de este servicio, lo invitamos a ver el video Docker y Kubernetes sobre Windows 10 WSL, el cual se encuentra en el material complementario.
       
-      separador
+      
       br
       br
       br
 
       .row.justify-content-around.align-items-center
 
-        #base_de_datos
-        .titulo-segundo.color-acento-contenido
-          h2 Base de datos
+        h3 Base de datos
 
         .row
           .col-lg-6
             
-            p(data-aos="fade-left") #[strong  Las bases de datos son sistemas de almacenamiento que permiten resguardar la información de una manera organizada y segura, una característica es la velocidad de respuesta al momento de solicitar la búsqueda a realizar pero en este momento nos concentramos en los servidores de bases de datos, los cuales son utilizados para el despliegue de bases de datos que prestan servicios a millones de usuarios en la <em>red</em>.] Uno de los aspectos a tener en cuenta al momento de realizar la instalación de un servidor de bases de datos, son los requerimientos de infraestructura que se necesitan para poder atender a la cantidad de usuarios que requieren de dicho servicio, esto se puede ver en la cantidad de estos o de conexiones simultáneas que pueda soportar el servicio. Como bien se sabe, existen muchos motores de bases de datos que actualmente son utilizados para el almacenamiento de información pero nos concentraremos en <em>MySQL</em>.
+            p(data-aos="fade-left") Las bases de datos son sistemas de almacenamiento que permiten resguardar la información de una manera organizada y segura; una característica es la velocidad de respuesta al momento de solicitar la búsqueda a realizar, pero en este momento nos concentramos en los servidores de bases de datos, los cuales son utilizados para el despliegue de información que presta servicios a millones de usuarios en la red. Uno de los aspectos a tener en cuenta al momento de realizar la instalación de un servidor de bases de datos, se refiere a los requerimientos de infraestructura que se necesitan para poder atender a la cantidad de usuarios que requieren de dicho servicio; esto se puede ver en la cantidad de estos, o de conexiones simultáneas que pueda soportar el servicio. Como bien se sabe, existen muchos motores de bases de datos que actualmente son utilizados para el almacenamiento de información, pero nos concentraremos en MySQL.
 
           .col-lg-6
             
@@ -127,8 +123,8 @@
                 img(data-aos="fade-down-right")(src='@/assets/curso/temas/imagen-mysql-tema4.png', alt='Texto que describa la imagen').imagen-base-datos-tema4
 
           .col-lg-6(data-aos="fade-left").p-3
-            p.texto-tarjeta-mysql El servidor de bases de datos <em>MySQL</em> es un <em>software</em> que se encarga del almacenamiento y procesamiento de información. Este servidor puede ser ejecutado de manera local o de manera remota, instalado en unos servicios de alojamiento llamados <em>hosting</em>, los cuales son servicios que se ofrecen a través de <em>internet</em> y que se tiene que adquirir un plan para usarlos. Una de las cosas a tener presente en un servidor de bases de datos es la configuración de acceso teniendo en cuenta la cantidad de conexiones y usuarios autorizados para acceder a la información almacenada, otro aspecto son los permisos que se les da a esos usuarios para modificar la información, un ejemplo puede ser un usuario administrador y un usuario de consulta, el usuario administrador tendrá permisos de actualizar y modificar ciertas funciones e información del sistema mientras que el usuario de consulta solo podrá acceder a información almacenada pero no podrá modificar la que ya se encuentra almacenada a continuación veremos estas dos opciones.
-            p.texto-tarjeta-mysql La siguiente imagen nos presenta un servidor de bases de datos <em>MySQL</em>.
+            p.texto-tarjeta-mysql El servidor de bases de datos MySQL es un <i>software</i> que se encarga del almacenamiento y procesamiento de la información. Este servidor puede ser ejecutado de manera local o de manera remota, instalado en unos servicios de alojamiento llamados <i>hosting</i>, los cuales son servicios que se ofrecen a través de Internet y se tiene que adquirir un plan para utilizarlos. Una de las cosas a tener presente en un servidor de bases de datos es la configuración de acceso, teniendo en cuenta la cantidad de conexiones y usuarios autorizados para acceder a la información almacenada; otro aspecto se refiere a los permisos que se les da a esos usuarios para modificar la información; un ejemplo sería un usuario administrador y un usuario de consulta, el usuario administrador tendrá permisos de actualizar y modificar ciertas funciones e información del sistema, mientras que el usuario de consulta solo podrá acceder a información almacenada pero no podrá modificarla. A continuación, veremos estas dos opciones.
+            p.texto-tarjeta-mysql La siguiente imagen nos presenta un servidor de bases de datos MySQL.
             br
             
       
@@ -138,7 +134,8 @@
 
       .row.justify-content-around.align-items-center
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 4.
+            h5 Figura 4
+            br
             span <em>Servidor de bases de datos MySQL</em>
           br
 
@@ -155,7 +152,7 @@
           .row(data-aos="flip-up")
             .col-lg-10
               .cajon.color-primario.cajon-color-direccion-ip.p-4
-                p Como se puede apreciar en la siguiente imagen, tenemos varias cuentas de usuarios creadas en nuestro servidor de bases de datos, pero no todas tienen la misma configuración en cuanto a los privilegios y permisos que poseen. Por ejemplo, la cuenta llamada <em>localhost</em> tiene configurados todos los privilegios, es decir, puede realizar la modificación de todas las configuraciones del sistema, de hecho, tiene permisos para crear otros usuarios, pero en el caso de la cuenta llamada <em>yoyito</em>, solo tiene configurados algunos permisos como consultar, inserción, entre otros, esto quiere decir que en una base de datos, se deben configurar los usuarios para permitirles ciertos accesos para la manipulación y administración de los datos allí almacenados.
+                p Como se puede apreciar en la siguiente imagen, tenemos varias cuentas de usuarios creadas en nuestro servidor de bases de datos, pero no todas tienen la misma configuración en cuanto a los privilegios y permisos que poseen. Por ejemplo, la cuenta llamada <i>localhost</i> tiene configurados todos los privilegios, es decir, puede realizar la modificación de todas las configuraciones del sistema, de hecho, tiene permisos para crear otros usuarios, pero en el caso de la cuenta llamada yoyito, solo tiene configurados algunos permisos como consultar, inserción, entre otros; esto quiere decir que en una base de datos, se deben configurar los usuarios para permitirles ciertos accesos para la manipulación y administración de los datos allí almacenados.
     
       br
       br
@@ -164,7 +161,8 @@
 
       .row.justify-content-around.align-items-center
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 5.
+            h5 Figura 5
+            br
             span <em>Configuración de cuentas de usuario</em>
           br
 
@@ -182,7 +180,7 @@
         .row(data-aos="flip-up")
           .col-lg-10
             .cajon.color-acento-botones.cajon-color-comando-ping-t.p-4
-              p Y en la siguiente imagen se encuentran, seleccionados con color amarillo, los límites de recursos para asignar a los usuarios para la utilización de estos. En este caso, se debe colocar el máximo de consultas, máximo de actualizaciones, máximo de conexiones por hora y cantidad de usuarios conectados. Estos límites se deben establecer de acuerdo con las necesidades de la organización que la implementa, pero existe algo particular en esta imagen y es que todos los números se encuentran en 0, esto quiere decir que no existe límite de conexiones sino que el sistema de bases de datos, de acuerdo con los recursos que tenga disponibles la computadora, se usarán para cumplir la entrega y procesamiento de la información que requieren. Ahora bien, esto es una mala práctica desde el punto de vista real, es decir, esta configuración se puede utilizar en una computadora local para aprovechar todo el potencial del motor de la base de datos, pero al momento de instalar y configurar en un ambiente real, se deben tener en cuenta los límites establecidos y mencionados anteriormente.
+              p Y en la siguiente imagen se encuentran, seleccionados con color amarillo, los límites de recursos para asignar a los usuarios para su utilización. En este caso, se debe colocar el máximo de consultas, máximo de actualizaciones, máximo de conexiones por hora y cantidad de usuarios conectados. Estos límites se deben establecer, de acuerdo con las necesidades de la organización que la implementa, pero existe algo particular en esta imagen y es que todos los números se encuentran en 0; esto quiere decir que no existe límite de conexiones, sino que el sistema de bases de datos, de acuerdo con los recursos que tenga disponibles la computadora, se usarán para cumplir la entrega y procesamiento de la información que requieren. Ahora bien, esto es una mala práctica desde el punto de vista real, es decir, esta configuración se puede utilizar en una computadora local, para aprovechar todo el potencial del motor de la base de datos, pero al momento de instalar y configurar en un ambiente real, se deben tener en cuenta los límites establecidos y mencionados anteriormente.
       
       
       br
@@ -193,7 +191,8 @@
       
       .row.justify-content-around.align-items-center
           .titulo-sexto.color-acento-contenido.mb-3
-            h5 Figura 6.
+            h5 Figura 6
+            br
             span <em>Configuración de límite de recursos</em>
           br
 
