@@ -116,14 +116,14 @@
               img(src='@/assets/curso/temas/imagen-entrega-continua-tema6.png', alt='Texto que describa la imagen').imagen1-acordeon-tema6
               //figcaption Leyenda de la imagen
 
-    h3.mt-5 Automatización
+    h3.my-5 Automatización
         
-      .row.fondo-tarjeta-automatizacion-tema6
-        .row.fondo-imagen-automatizacion-tema6
-          .col-lg-12
-            figure
-                img(data-aos="fade-down-up")(src='@/assets/curso/temas/imagen-automatizacion-tema6.png', alt='Texto que describa la imagen').imagen-automatizacion-tema6
-          p.texto-invisible-tema4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente necessitatibus quisquam incidunt? Voluptatem esse, dolorem rerum pariatur doloribus laborum atque natus, quasi odio deserunt amet exercitationem repellendus dolor facilis ducimus.
+    .row.fondo-tarjeta-automatizacion-tema6
+      .row.fondo-imagen-automatizacion-tema6
+        .col-lg-12
+          figure
+              img(data-aos="fade-down-up")(src='@/assets/curso/temas/imagen-automatizacion-tema6.png', alt='Texto que describa la imagen').imagen-automatizacion-tema6
+        p.texto-invisible-tema4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente necessitatibus quisquam incidunt? Voluptatem esse, dolorem rerum pariatur doloribus laborum atque natus, quasi odio deserunt amet exercitationem repellendus dolor facilis ducimus.
     
     .row.justify-content-around.align-items-center
     

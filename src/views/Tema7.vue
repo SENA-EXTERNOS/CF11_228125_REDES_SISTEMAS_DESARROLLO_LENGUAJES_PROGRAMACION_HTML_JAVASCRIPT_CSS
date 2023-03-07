@@ -47,7 +47,7 @@
 
     .row.justify-content-around.align-items-center
 
-      p Ahora bien, si nos concentramos en las ventajas que el TDD puede ofrecer al momento de generar código robusto y estable, es la mejor manera de realizarlo; es por eso que, al tener unos datos de prueba ya establecidos y los casos o condiciones que debe ejecutar dicho código, se evidencia un mejor desempeño del mismo, porque sabemos qué estamos buscando y cuáles serían las excepciones a controlar dentro del aplicativo. 
+      p.mb-5 Ahora bien, si nos concentramos en las ventajas que el TDD puede ofrecer al momento de generar código robusto y estable, es la mejor manera de realizarlo; es por eso que, al tener unos datos de prueba ya establecidos y los casos o condiciones que debe ejecutar dicho código, se evidencia un mejor desempeño del mismo, porque sabemos qué estamos buscando y cuáles serían las excepciones a controlar dentro del aplicativo. 
 
 
       .row
@@ -64,16 +64,16 @@
     
     .row.justify-content-around.align-items-center
 
-      h3 Manejo de los servicios en la nube
+      h3.my-5 Manejo de los servicios en la nube
       
       .tarjeta.tarjeta-tarjeta1-automatizacion-tema7
         .row.align-items-center
-            .col-lg-2
-              img.img-t.img-a(src='@/assets/curso/temas/imagen-tarjeta-final-tema2.png', alt='Texto que describa la imagen')
+          .col-lg-2
+            img.img-t.img-a(src='@/assets/curso/temas/imagen-tarjeta-final-tema2.png', alt='Texto que describa la imagen')
 
-            .col-lg-6.p-3
-              p.texto-tarjeta-final-tema2 Los servicios en la nube son una alternativa bastante favorable, no solo por la facilidad y seguridad al momento de realizar el despliegue de aplicaciones y servicios en Internet, sino que ofrecen un bajo costo para quienes utilizan estos servicios.
-              p.mb-0.texto-tarjeta-final-tema2 Para conocer cada uno de estos servicios, lo invitamos a leer el documento “Manejo de los servicios en la nube”.
+          .col-lg-6.p-3
+            p.texto-tarjeta-final-tema2 Los servicios en la nube son una alternativa bastante favorable, no solo por la facilidad y seguridad al momento de realizar el despliegue de aplicaciones y servicios en Internet, sino que ofrecen un bajo costo para quienes utilizan estos servicios.
+            p.mb-0.texto-tarjeta-final-tema2 Para conocer cada uno de estos servicios, lo invitamos a leer el documento “Manejo de los servicios en la nube”.
 
 
             .col-lg-4
@@ -99,11 +99,10 @@
     br
     br
     
-    .row.justify-content-around.align-items-center
-      .row
-          .col-lg-10
-            .cajon.color-primario.cajon-color-automatizacion-tema7.p-4
-              p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
+    .row.justify-content-center
+      .col-lg-10
+        .cajon.color-primario.cajon-color-automatizacion-tema7.p-4
+          p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 
 

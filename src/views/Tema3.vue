@@ -21,7 +21,7 @@
 
     .row.justify-content-around.align-items-center
 
-      p #[strong Conozcamos los sistemas de control de versiones más utilizados:]
+      p.mb-5 #[strong Conozcamos los sistemas de control de versiones más utilizados:]
 
       br
       br
@@ -79,11 +79,10 @@
     br
     br
 
-    .row.justify-content-around.align-items-center
-      .row
-        .col-lg-10
-          .cajon.color-acento-botones.cajon-color-comando-ping-t.p-4
-            p Siguiendo con el tema de las tecnologías, el siguiente video nos brinda una explicación sobre las herramientas de control de código.
+    .row.justify-content-center
+      .col-lg-10
+        .cajon.color-acento-botones.cajon-color-comando-ping-t.p-4
+          p.mb-0 Siguiendo con el tema de las tecnologías, el siguiente video nos brinda una explicación sobre las herramientas de control de código.
     br
     br
     br
@@ -95,7 +94,7 @@
 
       figure
         .video
-          iframe(data-aos="zoom-out")(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+          iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
 
 </template>

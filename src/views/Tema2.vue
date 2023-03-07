@@ -7,16 +7,14 @@
         span 2
       h1 Sistemas operativos
 
-    //Tarjeta1 color izquierda
-    .row.justify-content-around.align-items-center
 
-      .row
-        .col-lg-6.fondo-col-izq-tarjeta1-tema2
-          p(data-aos="fade-left").texto-tarjeta1-tema2.p-3 Un sistema operativo es un tipo de <i>software</i> que permite que los periféricos y el hardware de la computadora puedan recibir las órdenes que el usuario le entrega al computador; es un <i>software</i> que se encarga de controlar todas las funciones que realiza el usuario a través de la computadora y que estas se cumplan, de acuerdo con lo solicitado; otra de las funciones que tiene el sistema operativo es la de realizar la comunicación entre los diferentes equipos, y este acto es a lo que llamamos protocolos de comunicación, los cuales permiten crear las reglas de comunicación entre los computadores que se encuentran conectados a una red informática, sea para compartir información o archivos. La gestión del sistema operativo es fundamental para el correcto funcionamiento de todos los otros programas instalados en una computadora, porque cuando hablamos de la ejecución de un programa, nos referimos a la asignación de memoria RAM para que estos funcionen; el sistema operativo es el encargado de asignar los espacios de memoria RAM, requeridos para la operación del <i>software</i>; por esta razón toda computadora debe contar con un sistema operativo para su operación y puesta en marcha.
-        
-        .col-lg-6
-          figure
-              img(data-aos="fade-down-right")(src="@/assets/curso/temas/imagen1-tartjeta-tema2.png")
+    .row
+      .col-lg-6.fondo-col-izq-tarjeta1-tema2
+        p.text-white.p-5 Un sistema operativo es un tipo de <i>software</i> que permite que los periféricos y el hardware de la computadora puedan recibir las órdenes que el usuario le entrega al computador; es un <i>software</i> que se encarga de controlar todas las funciones que realiza el usuario a través de la computadora y que estas se cumplan, de acuerdo con lo solicitado; otra de las funciones que tiene el sistema operativo es la de realizar la comunicación entre los diferentes equipos, y este acto es a lo que llamamos protocolos de comunicación, los cuales permiten crear las reglas de comunicación entre los computadores que se encuentran conectados a una red informática, sea para compartir información o archivos. La gestión del sistema operativo es fundamental para el correcto funcionamiento de todos los otros programas instalados en una computadora, porque cuando hablamos de la ejecución de un programa, nos referimos a la asignación de memoria RAM para que estos funcionen; el sistema operativo es el encargado de asignar los espacios de memoria RAM, requeridos para la operación del <i>software</i>; por esta razón toda computadora debe contar con un sistema operativo para su operación y puesta en marcha.
+      
+      .col-lg-6
+        figure
+            img(data-aos="fade-down-right")(src="@/assets/curso/temas/imagen1-tartjeta-tema2.png")
 
     br
     br
@@ -72,11 +70,9 @@
 
     .row.justify-content-around.align-items-center
       //problema con la etiqueta de red
-      p A continuación, veremos algunas configuraciones de red, pantalla y teclado; para el ejemplo nos enfocaremos en el sistema operativo Windows, porque es el más utilizado, como mencionamos anteriormente.
+      p.mb-5 A continuación, veremos algunas configuraciones de red, pantalla y teclado; para el ejemplo nos enfocaremos en el sistema operativo Windows, porque es el más utilizado, como mencionamos anteriormente.
 
-      figure
-          img(src='@/assets/curso/temas/imagen-fondo-slider-tema2 .png', alt='Texto que describa la imagen').imagen-fondo-tarjetas-slider-tema1
-      SlyderA(tipo="b").tarjeta.fondo-tarjetas-slider-tema1
+      SlyderA(tipo="b").tarjeta.fondo-tarjetas-slider-tema1.p-4
         
         .row
           .col-md-6.mb-4.mb-md-0
@@ -113,27 +109,21 @@
             figure
               img(src='@/assets/curso/temas/imagen3-slider-tema2.png', alt='Texto que describa la imagen').imagen-tarjetas-slider-tema1
               //figcaption Leyenda de la imagen         
-    br
-    br
 
-    .row.justify-content-center.align-items-center.my-lg-4
-
-
-      .tarjeta.tarjeta-final-tema2
-        .row
-            .col-lg-2
-              figure
-                img(src='@/assets/curso/temas/imagen-tarjeta-final-tema2.png', alt='Texto que describa la imagen').imagen-tarjeta-final-tema2
-
-            .col-lg-6.p-3
-              p.texto-tarjeta-final-tema2.mb-0 Para finalizar, lo invitamos a ver el documento <em>Sistemas operativos y sus comandos</em>, donde encontrará los diferentes comandos que se utilizan en los diferentes sistemas operativos.
-
-            .col-lg-4
-              a.boton.color-acento-botones.boton-tarjeta-final-tema2.texto-blanco(:href="obtenerLink('/downloads/ANEXO_Sistemas_operativos_y_sus_comandos.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-
-
+    .row.justify-content-center.align-items-center.mt-5           
+      .col-lg-10
+        .tarjeta.color-primario.p-3.mb-5.bgb
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/imagen-tarjeta-final-tema2.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.mb-0.text-white Para finalizar, lo invitamos a ver el documento <em>Sistemas operativos y sus comandos</em>, donde encontrará los diferentes comandos que se utilizan en los diferentes sistemas operativos.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/ANEXO_Sistemas_operativos_y_sus_comandos.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
 
 </template>
 

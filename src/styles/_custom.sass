@@ -38,6 +38,7 @@
     top: 37%
     right: 215%
     width: 5%
+    display: none
   &-8
     animation: ease-in-out infinite alternate
     position: absolute
@@ -111,8 +112,6 @@
   left: 10%
 
 .bloque-pestanas-horizontales
-  position: relative
-  top: 3em
   background-color: #E8F9F6
 
 .textofinal-pestanas-horizontales
@@ -129,11 +128,8 @@
   background-color: #FFFEF8
 
 .cajon-color-direccion-ip
-  position: relative
-  top: 3em
-  left: 10%
   background-color: #FBCEDD !important
-  color:  #FBCEDD !important
+
 
 .fa-circle:before
   color: $color-primario !important
@@ -170,11 +166,7 @@
   left: 20%
 
 .cajon-color-comando-ping-t
-  position: relative
-  top: 3em
-  left: 10%
   background-color: #C7F2EB !important
-  color:  #C7F2EB !important
 
 .tabla-a th 
   border-color:none
@@ -207,13 +199,11 @@ table
   width: 70%
 
 .fondo-col-izq-tarjeta1-tema2
-  position: relative
   background-color: #285894
+  display: flex
+  justify-content: center
+  align-content: center
 
-.texto-tarjeta1-tema2
-  position: relative
-  color: white
-  top: 3em
 
 .fondo-col-der-tarjeta1-tema2
   position: relative
@@ -253,14 +243,6 @@ table
 .fondo-tarjetas-slider-tema1
   background-color: #E8F7F3
 
-.imagen-fondo-tarjetas-slider-tema1
-  position: absolute
-  top: 72%
-  left: 3%
-  width: 85%
-  transform: scale(1.1, 1.07)
-  transform-origin: left
-  z-index: 1
 
 .texto-tarjetas-slider-tema1
   position: relative
@@ -282,11 +264,6 @@ table
 
 .tarjeta-final-tema2
   background: linear-gradient(180deg, #3e8dd4, #2b63ab, #15347e);
-  position: relative
-  bottom: 0em
-  right: 1%
-  width: 90%
-  z-index: 1
 
 .boton-tarjeta-final-tema2
   position: relative
@@ -633,11 +610,7 @@ table
   z-index: 1
 
 .cajon-color-automatizacion-tema7
-  position: relative
-  top: 3em
-  left: 10%
   background-color: #FBCEDD !important
-  color:  #FBCEDD !important
 
 
 .texto-titulo-sintesis
@@ -675,3 +648,15 @@ table
 .img-t
   width: auto
   height: auto  
+
+.bgb
+  background: linear-gradient(180deg, rgba(71,160,230,1) 0%, rgba(15,39,113,1) 100%) !important
+
+.bloque-texto-g
+  justify-content: flex-start
+.bloque-texto-g__img
+  left: auto
+  right: 0    
+
+.bgb1
+  background-color: #0B5999  
