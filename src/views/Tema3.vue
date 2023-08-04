@@ -69,12 +69,13 @@
     .row.justify-content-around.align-items-center
 
       .row
-        .col-lg-5.color-columna-izq-ultima-tarjeta-color-tema2
+        .col-lg-5.color-columna-izq-ultima-tarjeta-color-tema2.j
           figure
-                img(data-aos="fade-down-right")(src='@/assets/curso/temas/imagen-tarjeta-color-tema3.png', alt='Texto que describa la imagen')
+            img(data-aos="fade-down-right")(src='@/assets/curso/temas/imagen-tarjeta-color-tema3.png', alt='Texto que describa la imagen')
         
-        .col-lg-7.color-columna-der-ultima-tarjeta-color-tema2
-          p(data-aos="fade-left").texto-ultima-tarjeta-color-tema2.p-3 A diferencia de algunos programas de <i>software</i> para control de versiones, Git no se deja engañar por los nombres de los archivos a la hora de determinar cuál debería ser el almacenamiento y el historial de versiones del árbol de archivos; en lugar de esto, se centra en el contenido del propio archivo. En definitiva, los archivos de código fuente cambian de nombre, se dividen y se reorganizan con frecuencia. El formato de objeto de los archivos del repositorio de Git, emplea una combinación de codificación delta (que almacena las diferencias de contenido) y compresión, guardando explícitamente el contenido de los directorios y los objetos de metadatos de las versiones.
+        .col-lg-7.color-columna-der-ultima-tarjeta-color-tema2.j.text-white 
+          .p-4.px-5
+            p(data-aos="fade-left").mb-0 A diferencia de algunos programas de <i>software</i> para control de versiones, Git no se deja engañar por los nombres de los archivos a la hora de determinar cuál debería ser el almacenamiento y el historial de versiones del árbol de archivos; en lugar de esto, se centra en el contenido del propio archivo. En definitiva, los archivos de código fuente cambian de nombre, se dividen y se reorganizan con frecuencia. El formato de objeto de los archivos del repositorio de Git, emplea una combinación de codificación delta (que almacena las diferencias de contenido) y compresión, guardando explícitamente el contenido de los directorios y los objetos de metadatos de las versiones.
 
     br
     br
