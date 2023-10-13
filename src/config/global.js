@@ -87,14 +87,15 @@ export default {
         nombreRuta: 'tema5',
         icono: 'far fa-file-alt',
         numero: '5',
-        titulo: 'Manejo de herramientas de desarrollo de <i>software</i>: IDEs',
+        titulo:
+          'Manejo de herramientas de desarrollo de <em>software</em>: <em>IDEs</em>',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
         icono: 'far fa-file-alt',
         numero: '6',
-        titulo: 'Estrategia DevOps',
+        titulo: 'Estrategia <em>DevOps</em>',
         desarrolloContenidos: true,
       },
       {
@@ -171,7 +172,7 @@ export default {
       tema: 'Técnicas de codificación y manejo de servicios en la nube',
       referencia:
         'Païola, P. (2021). <i>Microsoft Azure : Gestione su Sistema de Información en la Nube</i>. Ediciones ENI.',
-      tipo: 'Video',
+      tipo: 'Libro',
       link:
         'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_biblioteca_eniEPT3AZWIN&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
     },

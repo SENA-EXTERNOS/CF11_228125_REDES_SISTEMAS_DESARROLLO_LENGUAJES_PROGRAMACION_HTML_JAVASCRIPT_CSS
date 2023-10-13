@@ -12,7 +12,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/temas/imagen1-tema4.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Para iniciar este proceso de exploración en la instalación de servidores, debemos entender qué es un servidor; se define como una computadora con unas características especiales en cuanto a rendimiento y almacenamiento, y tiene como función principal ofrecer servicios a las diferentes computadoras que se encuentran conectadas a una red; estos servicios pueden ser almacenamiento de información, subida de archivos, bajada de archivos, procesamiento de información, correo electrónico, entre otras. Gracias a estas máquinas, es posible realizar el intercambio de información y utilizar los servicios que ahora usamos, tales como redes sociales, correo electrónico, entre otros. Los servidores son instalados en lugares donde el acceso a ellos es restringido y, en algunas ocasiones, con medidas de seguridad extrema, porque la información que almacenan suele ser personal y no puede ser divulgada a terceros, debido a que se generarían problemas con dicha información.    
+        p.mb-0 Para iniciar este proceso de exploración en instalación de servidores, debemos entender qué es un servidor, encontrando como definición que, es una computadora con unas características especiales en cuanto a rendimiento y almacenamiento, tiene como función principal ofrecer servicios a las diferentes computadoras que se encuentran conectadas a una red, estos servicios pueden ser almacenamiento de información, subida de archivos, bajada de archivos, procesamiento de información, correo electrónico, entre otras. Gracias a estas máquinas, es posible realizar el intercambio de información y utilizar los servicios que ahora usamos, tales como redes sociales, correo electrónico, entre otros. Los servidores son instalados en lugares donde el acceso a ellos es restringido y en algunas ocasiones con medidas de seguridad extrema porque la información que almacenan suele ser personal y no puede ser divulgada a terceros, debido a que se generarían problemas con dicha información.
 
     
 
@@ -25,9 +25,8 @@
       .col-lg-10
         .tarjeta.imagen2-tarjeta2-tema3
           figure
-            img(src='@/assets/curso/temas/imagen-contenedor-web.png', alt='Texto que describa la imagen')
-      p.texto-invisible-tema4 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla nam veritatis eum nihil dolorum laborum sequi repellat? Consequuntur veritatis corrupti quasi eos veniam, assumenda, recusandae dolore illum ipsa, cumque harum.
-
+            img(src='@/assets/curso/temas/imgs/CF11-4.png', alt='')
+      
     br
     br
 
@@ -126,17 +125,14 @@
     br
     br
 
-    .row.justify-content-around.align-items-center
+    .row.justify-content-center.align-items-center
+      .col-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 4
+          h5 Figura 7
           br
           span <em>Servidor de bases de datos MySQL</em>
-        br
-
-        .row
-          .col-10
-            figure
-              img(data-aos="zoom-in")(src='@/assets/curso/temas/imagen-servidor-mysql.png', alt='Texto que describa la imagen').imagen-servidor-mysql-tema4
+        figure
+          img(data-aos="zoom-in")(src='@/assets/curso/temas/imgs/CF11-5(0).png', alt='')
 
     br
     br
@@ -152,16 +148,13 @@
     br
 
     .row.justify-content-around.align-items-center
+      .col-10
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 5
+          h5 Figura 8
           br
           span <em>Configuración de cuentas de usuario</em>
-        br
-
-        .row
-          .col-10
-            figure
-              img(data-aos="zoom-in")(src='@/assets/curso/temas/imagen-configuracion-usuarios-mysql.png', alt='Texto que describa la imagen').imagen-servidor-mysql-tema4
+        figure
+          img(data-aos="zoom-in")(src='@/assets/curso/temas/imgs/CF11-5(1).png', alt='')
 
     br
     br
@@ -171,8 +164,7 @@
     .row.justify-content-center
       .col-lg-10
         .cajon.color-acento-botones.cajon-color-comando-ping-t.p-4
-          p Y en la siguiente imagen se encuentran, seleccionados con color amarillo, los límites de recursos para asignar a los usuarios para su utilización. En este caso, se debe colocar el máximo de consultas, máximo de actualizaciones, máximo de conexiones por hora y cantidad de usuarios conectados. Estos límites se deben establecer, de acuerdo con las necesidades de la organización que la implementa, pero existe algo particular en esta imagen y es que todos los números se encuentran en 0; esto quiere decir que no existe límite de conexiones, sino que el sistema de bases de datos, de acuerdo con los recursos que tenga disponibles la computadora, se usarán para cumplir la entrega y procesamiento de la información que requieren. Ahora bien, esto es una mala práctica desde el punto de vista real, es decir, esta configuración se puede utilizar en una computadora local, para aprovechar todo el potencial del motor de la base de datos, pero al momento de instalar y configurar en un ambiente real, se deben tener en cuenta los límites establecidos y mencionados anteriormente.
-    
+          p.mb-0 Y en la siguiente imagen se encuentran, seleccionados con color amarillo, los límites de recursos para asignar a los usuarios para su utilización. En este caso, se debe colocar el máximo de consultas, máximo de actualizaciones, máximo de conexiones por hora y cantidad de usuarios conectados. Estos límites se deben establecer de acuerdo con las necesidades de la organización que la implementa, pero existe algo particular en esta imagen y es que todos los números se encuentran en 0, esto quiere decir que no existe límite de conexiones, sino que el sistema de bases de datos, de acuerdo con los recursos que tenga disponibles la computadora, se usarán para cumplir la entrega y procesamiento de la información que requieren. Ahora bien, esto es una mala práctica desde el punto de vista real, es decir, esta configuración se puede utilizar en una computadora local para aprovechar todo el potencial del motor de la base de datos, pero al momento de instalar y configurar en un ambiente real, se deben tener en cuenta los límites establecidos y mencionados anteriormente.
     
     br
     br
@@ -181,16 +173,13 @@
 
     
     .row.justify-content-around.align-items-center
+      .col-lg-9
         .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 6
+          h5 Figura 9
           br
           span <em>Configuración de límite de recursos</em>
-        br
-
-        .row
-          .col-10
-            figure
-              img(data-aos="zoom-in")(src='@/assets/curso/temas/imagen-configuracion-limite-recursos-tema4.png', alt='Texto que describa la imagen').imagen-servidor-mysql-tema4
+        figure
+          img(data-aos="zoom-in")(src='@/assets/curso/temas/imagen-configuracion-limite-recursos-tema4.png', alt='Texto que describa la imagen')
         
     br
     br

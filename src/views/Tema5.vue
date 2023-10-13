@@ -39,18 +39,13 @@
       br
 
       .row.justify-content-around.align-items-center
-
-            
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 7
-          br
-          span <em>Front-end</em>
-
-
-        .row.mb-5
-          .col-10
+          .col-lg-9
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 10
+              br
+              span <em>Front-end</em>
             figure
-              img(data-aos="zoom-in")(src='@/assets/curso/temas/imagen-ej-facturacion-tema5.png', alt='Texto que describa la imagen').imagen-direccion-ip-tema1
+              img(data-aos="zoom-in")(src='@/assets/curso/temas/imagen-ej-facturacion-tema5.png', alt='')
       .row.justify-content-center.mt-5
         .col-lg-10
           .cajon.color-primario.cajon-color-direccion-ip.p-4
@@ -61,17 +56,13 @@
       br
 
       .row.justify-content-around.align-items-center
-
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Figura 8
-          br
-          span <em>Back-end</em>
-
-
-        .row
-          .col-10
-            figure
-              img(data-aos="zoom-in")(src='@/assets/curso/temas/imagen-codigo-back-end-tema5.png', alt='Texto que describa la imagen').imagen-direccion-ip-tema1
+        .col-lg-8
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Figura 11
+            br
+            span <em>Back-end</em>
+          figure
+            img(data-aos="zoom-in")(src='@/assets/curso/temas/imgs/cf11-6.png', alt='')
       
       br
       br

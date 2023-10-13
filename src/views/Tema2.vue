@@ -10,7 +10,8 @@
 
     .row
       .col-lg-6.fondo-col-izq-tarjeta1-tema2
-        p.text-white.p-5 Un sistema operativo es un tipo de <i>software</i> que permite que los periféricos y el hardware de la computadora puedan recibir las órdenes que el usuario le entrega al computador; es un <i>software</i> que se encarga de controlar todas las funciones que realiza el usuario a través de la computadora y que estas se cumplan, de acuerdo con lo solicitado; otra de las funciones que tiene el sistema operativo es la de realizar la comunicación entre los diferentes equipos, y este acto es a lo que llamamos protocolos de comunicación, los cuales permiten crear las reglas de comunicación entre los computadores que se encuentran conectados a una red informática, sea para compartir información o archivos. La gestión del sistema operativo es fundamental para el correcto funcionamiento de todos los otros programas instalados en una computadora, porque cuando hablamos de la ejecución de un programa, nos referimos a la asignación de memoria RAM para que estos funcionen; el sistema operativo es el encargado de asignar los espacios de memoria RAM, requeridos para la operación del <i>software</i>; por esta razón toda computadora debe contar con un sistema operativo para su operación y puesta en marcha.
+        p.text-white.p-5 Con respecto a los sistemas operativos, son un tipo de #[em software] que permite que los periféricos y el #[em hardware] de la computadora pueda recibir las órdenes que el usuario le entrega al computador, es un #[em software ]que se encarga de controlar todas las funciones que realiza el usuario a través de la computadora y que estas se cumplan de acuerdo a lo solicitado, otra de las funciones que tiene el sistema operativo es realizar la comunicación entre los diferentes equipos, esto es a lo que llamamos protocolos de comunicación, los cuales permiten crear las reglas de comunicación entre los computadores que se encuentran conectados a una red informática, sea para compartir información o archivos en general. La gestión del sistema operativo es fundamental para el correcto funcionamiento de todos los otros programas instalados en una computadora, porque cuando hablamos de la ejecución de un programa nos estamos refiriendo a la asignación de memoria RAM para que estos funcionen y es el sistema operativo el encargado de asignar los espacios de memoria RAM requeridos para la operación de dicho #[em software], por esta razón toda computadora debe contar con un sistema operativo para su operación y puesta en marcha.
+
       
       .col-lg-6
         figure
@@ -36,15 +37,16 @@
 
         .tarjeta.color-acento-contenido.p-3(x="30.5%" y="4%" numero="+")
           .h5.mb-2 <em>Linux</em>
-          p Es un sistema operativo desarrollado por la empresa Microsoft, el cual se ha convertido a lo largo de los años en el principal sistema operativo utilizado en el mundo, por su sencillez y facilidad. Adicional a ello, tiene una gran compatibilidad con los diferentes dispositivos y fabricantes actuales, para el tema de videojuegos e integración de multimedia; es la mejor alternativa para diseñadores y programadores de computadoras, porque es un sistema operativo muy versátil y utilizado.
+          p Es un sistema desarrollado bajo la filosofía de <i>software</i> libre, el cual tiene un concepto de manejo de libertades en el uso del <i>software</i>; este sistema operativo está más relacionado con los equipos que prestan servicios llamados servidores, los cuales permiten instalar programas que pueden ser utilizados por millones de usuarios en Internet.
 
+          
         .tarjeta.color-acento-contenido.p-3(x="59%" y="4%" numero="+")
           .h5.mb-2 <em>MAC OS</em>
           p Es un sistema operativo desarrollado por la empresa Apple, el cual permite realizar el control y administración de los equipos de dicha marca. Este sistema operativo es muy versátil y utilizado por muchos usuarios a nivel mundial, por su gran capacidad de adaptación al usuario final y su seguridad; es importante mencionar que este sistema operativo se distribuye también para dispositivos móviles tales como tabletas y teléfonos celulares.
 
         .tarjeta.color-acento-contenido.p-3(x="87.5%" y="4%" numero="+")
           .h5.mb-2 <em>Windows</em>
-          p Es un sistema desarrollado bajo la filosofía de <i>software</i> libre, el cual tiene un concepto de manejo de libertades en el uso del <i>software</i>; este sistema operativo está más relacionado con los equipos que prestan servicios llamados servidores, los cuales permiten instalar programas que pueden ser utilizados por millones de usuarios en Internet.
+          p Es un sistema operativo desarrollado por la empresa Microsoft, el cual se ha convertido a lo largo de los años en el principal sistema operativo utilizado en el mundo, por su sencillez y facilidad. Adicional a ello, tiene una gran compatibilidad con los diferentes dispositivos y fabricantes actuales, para el tema de videojuegos e integración de multimedia; es la mejor alternativa para diseñadores y programadores de computadoras, porque es un sistema operativo muy versátil y utilizado.
 
     br
     br
@@ -69,7 +71,6 @@
     br
 
     .row.justify-content-around.align-items-center
-      //problema con la etiqueta de red
       p.mb-5 A continuación, veremos algunas configuraciones de red, pantalla y teclado; para el ejemplo nos enfocaremos en el sistema operativo Windows, porque es el más utilizado, como mencionamos anteriormente.
 
       SlyderA(tipo="b").tarjeta.fondo-tarjetas-slider-tema1.p-4
@@ -82,33 +83,41 @@
             br
             br
           .col-md-6
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 4
+              br
+              span <em>Configuración de la pantalla</em>
             figure
-              img(src='@/assets/curso/temas/imagen1-slider-tema2.png', alt='Texto que describa la imagen').imagen-tarjetas-slider-tema1
+              img(src='@/assets/curso/temas/imgs/CF11-3-1.png', alt='')
               //figcaption Leyenda de la imagen
 
         .row.justify-content-center.align-items-center.my-lg-4
   
           .col-md-6.mb-4.mb-md-0
-              p.texto-tarjetas-slider-tema1 Continuemos con la configuración de la tarjeta de red, la cual es fundamental y hace parte de la configuración del sistema operativo. Permite que un dispositivo pueda ser configurado para acceder a ciertos recursos en red; en el caso de los servidores, estos requieren utilizar muchas veces VPN que son redes virtuales privadas para el manejo de la seguridad y conexión de los mismos; todo esto se realiza a través de la configuración de red y, por eso, es importante tener en cuenta este proceso. La siguiente imagen nos presenta la configuración de la tarjeta de red.
+              p.texto-tarjetas-slider-tema1 Continuemos con la configuración de la tarjeta de red, la cual es fundamental y hace parte de la configuración del sistema operativo. Permite que un dispositivo pueda ser configurado para acceder a ciertos recursos de red, en el caso de los servidores estos requieren utilizar muchas veces VPN que son redes virtuales privadas para el manejo de la seguridad y conexión de estos, todo esto se realiza a través de la configuración de red, por ello es importante tener en cuenta este proceso. La siguiente imagen nos presenta la configuración de la tarjeta de red.
               br
               br
-
-          .col-md-6
+          .col-md-4
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 5
+              br
+              span <em>Configuración de tarjeta de red</em>
             figure
-              img(src='@/assets/curso/temas/imagen2-slider-tema2.png', alt='Texto que describa la imagen').imagen-tarjetas-slider-tema1
-              //figcaption Leyenda de la imagen          
-
+              img(src='@/assets/curso/temas/imgs/CF11-3-2.png', alt='')
         
         .row.justify-content-center.align-items-center.my-lg-4
-  
           .col-md-6.mb-4.mb-md-0
-              p.texto-tarjetas-slider-tema1 En esta imagen, observamos cómo se establece la configuración del teclado, idioma, formato de hora y fecha del sistema. Este proceso es muy importante, debido a que muchas aplicaciones informáticas requieren que el formato de hora y fecha tenga unas características especiales y, en este espacio, se puede realizar la configuración del mismo; adicional a esto, se pueden configurar las preferencias del idioma que el usuario quiera utilizar, lo cual puede ser muy importante en un momento indicado.
-              br
-              br
+            p.texto-tarjetas-slider-tema1 En esta imagen, observamos cómo se establece la configuración del teclado, idioma, formato de hora y fecha del sistema. Este proceso es muy importante, debido a que muchas aplicaciones informáticas requieren que el formato de hora y fecha tenga unas características especiales y, en este espacio, se puede realizar la configuración del mismo; adicional a esto, se pueden configurar las preferencias del idioma que el usuario quiera utilizar, lo cual puede ser muy importante en un momento indicado.
+            br
+            br
           .col-md-6
+            .titulo-sexto.color-acento-contenido.mb-3
+              h5 Figura 6
+              br
+              span <em>Configuración de hora y fecha</em>
             figure
-              img(src='@/assets/curso/temas/imagen3-slider-tema2.png', alt='Texto que describa la imagen').imagen-tarjetas-slider-tema1
-              //figcaption Leyenda de la imagen         
+              img(src='@/assets/curso/temas/imgs/CF11-3(3).png', alt='')
+      
 
     .row.justify-content-center.align-items-center.mt-5           
       .col-lg-10

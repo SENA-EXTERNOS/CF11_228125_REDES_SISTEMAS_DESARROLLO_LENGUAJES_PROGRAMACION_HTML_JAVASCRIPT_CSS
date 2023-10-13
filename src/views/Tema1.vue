@@ -20,29 +20,21 @@
     p.mb-5 Ahora, la configuración de una red depende de su tipología y las necesidades que se requieran para la comunicación de la información. Existen redes inalámbricas y redes cableadas y, para estos casos particulares, su configuración puede variar, de acuerdo con la implementación. 
 
     TabsC.color-primario.bloque-pestanas-horizontales.mb-5
-      .py-3.py-md-4(titulo="Redes cableadas")
-        .row
-          .col-md-6
+      .p-3.p-md-4(titulo="Redes cableadas")
+        .row.justify-content-around
+          .col-md-5
             figure
-              img(src='@/assets/curso/temas/imagen-redes-cableadas.png', alt='Texto que describa la imagen').imagen-pestanas-horizontales
-              //figcaption Leyenda de la imagen
-
+              img(src='@/assets/curso/temas/imagen-redes-cableadas.png', alt='Texto que describa la imagen')
           .col-md-6.mb-4.mb-md-0
-            //h4 Celebrate your failures 1
             p Utilizan diferentes tipos de filamentos en los cables, para el transporte de la información.
             p Como podemos observar en la imagen, la conexión que se da entre cada dispositivo que pertenece a la red, se lleva a cabo a través de un cable conductor, el cual transporta los datos y la información que puede ser compartida con otros dispositivos. Es una de las redes más utilizadas, porque ofrece como ventaja, la seguridad, estabilidad y velocidad en el transporte de la información; estas requieren, para su configuración, dispositivos tales como <i>routers</i>, los cuales se encargan de darle transporte a la información y las solicitudes realizadas por el cliente.
-
-
-      .py-3.py-md-4(titulo="Redes inalámbricas")
-        .row
-          .col-md-6.mb-4.mb-md-0
+      .p-3.p-md-4(titulo="Redes inalámbricas")
+        .row.justify-content-around
+          .col-md-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/temas/imagen-redes-inalambricas.png', alt='Texto que describa la imagen').imagen-pestanas-horizontales
-              //figcaption Leyenda de la imagen
+              img(src='@/assets/curso/temas/imagen-redes-inalambricas.png', alt='Texto que describa la imagen')
           .col-md-6
-            //h4 Celebrate your failures 2
-            p Las redes inalámbricas o más conocidas como wifi, no utilizan un medio físico como las redes cableadas, sino que hacen uso del aire, para la transmisión de la información. Estas redes se han vuelto populares en muchos lugares del mundo, debido a que su mantenimiento, uso e implementación, son mucho más sencillos que el de la red cableada y cuentan con una ventaja y es que no requieren que el dispositivo esté conectado físicamente a un cable o un medio para interactuar con los servicios requeridos; debemos tener en cuenta que este tipo de redes pueden llegar a ser vulnerables si no se realiza una correcta instalación o implementación, donde se utiliza una clave compartida en el dispositivo, que despliega la señal de la red y luego, esa misma clave se debe colocar en los dispositivos que requieren conectarse, para realizar un proceso de autenticación y así poder utilizar los servicios de la red, de manera adecuada y segura.
-
+            p Las redes inalámbricas o más conocidas como WIFI, no utilizan un medio físico como las redes cableadas, sino que hacen uso del aire para la transmisión de información. Estas redes se han vuelto populares en muchos lugares del mundo puesto que su mantenimiento, uso e implementación son mucho más sencillos que el de la red cableada teniendo una ventaja, no requieren que el dispositivo esté conectado físicamente a un cable o medio para interactuar con los servicios requeridos, pero debemos tener en cuenta que este tipo de redes pueden llegar a ser vulnerables sino se realiza una correcta instalación o implementación, donde se utiliza una clave compartida en el dispositivo que despliega la señal de la red y luego esa misma clave se debe colocar en los dispositivos que requieren conectarse al mismo para realizar un proceso de autenticación y así poder utilizar los servicios de la red de manera adecuada y segura.
         
     p.mb-5 A continuación, veremos las diferentes configuraciones que se hacen en cada una de estas redes; esto implica utilizar una nomenclatura llamada dirección IP, formada por un número que se le asigna a cada equipo, para poder ser identificado dentro de la red de datos; así como en una ciudad existen nomenclaturas para las casas y de esa manera identificar a cada una de ellas, en las redes de datos, se utiliza la dirección IP para poder encontrar cada dispositivo en la misma. La siguiente imagen presenta un ejemplo de dirección IP.
 
@@ -107,7 +99,7 @@
         
       .row.fondo-color-tarjeta1-rolesyusuarios
         .col-6
-          p(data-aos="fade-left").texto-tarjeta1-rolesyusuarios.p-3 Son instrucciones que permiten controlar y verificar la información que se tiene, como configuraciones o estados de la red que se ha implementado. Existen muchos comandos de red, pero, en esta temática, abordaremos aquellos que permiten determinar el estado de la misma, si existe comunicación entre los diferentes dispositivos que se encuentran instalados en la red, y se realizará una verificación de la conectividad y qué tan estable se encuentra la misma.
+          p(data-aos="fade-left").texto-tarjeta1-rolesyusuarios.p-3 Son instrucciones que permiten controlar y verificar la información que se tiene, como configuraciones o estados de la red que se ha implementado. Existen muchos comandos de red, pero, en este componente formativo, abordaremos aquellos que permiten determinar el estado de la misma, si existe comunicación entre los diferentes dispositivos que se encuentran instalados en la red, y se realizará una verificación de la conectividad y qué tan estable se encuentra la misma.
 
         .col-6
           figure
@@ -124,32 +116,33 @@
               img(data-aos="fade-down-right")(src="@/assets/curso/temas/imagen2-comandos-red.png").imagen2-comandos-red
 
         .col-7
-          p(data-aos="fade-left").p-3 Por ejemplo, el comando <i>ping</i> se utiliza para verificar si existe conectividad de extremo a extremo entre dos computadoras en una red de datos; el comando realiza 4 verificaciones, las cuales deben ser comprobadas de manera correcta por el sistema, retornando como respuesta, paquetes enviados = 4, recibidos = 4 y perdidos = 0; esto indica que no se registró ninguna pérdida de información y que la conexión de los dos dispositivos es estable y no tiene interrupciones; pero si, en algún momento, se detecta que los paquetes recibidos disminuyen, se puede llegar a la conclusión que existen problemas de conexión en los dos extremos de la red. En algunas ocasiones, esto se debe a una mala ponchada de los cables que conforman el conector RJ45 que se conecta al dispositivo o computadora y también se presenta cuando se invierten algunos cables al orden normal; existen otras posibilidades como deficiencia en la señal, en el caso de las redes inalámbricas, o interrupción en la comunicación de los mismos. La siguiente imagen nos muestra un comando <i>ping</i>.
+          p(data-aos="fade-left").p-3 Por ejemplo, el comando #[em ping] se utiliza para verificar si existe conectividad de extremo a extremo entre dos computadoras en una red de datos; el comando realiza 4 verificaciones, las cuales deben ser comprobadas de manera correcta por el sistema, retornando como respuesta, paquetes enviados = 4, recibidos = 4 y perdidos = 0; esto indica que no se registró ninguna pérdida de información y que la conexión de los dos dispositivos es estable y no tiene interrupciones; pero si en algún momento se detecta que los paquetes recibidos disminuyen, se puede llegar a la conclusión que existen problemas de conexión en los dos extremos de la conexión. En algunas ocasiones esto se debe a una mala ponchada de los cables que conforman el conector #[em RJ45] que se conecta al dispositivo o computadora y también se presenta cuando se invierten algunos cables en el orden normal, existen otras posibilidades como deficiencia en la señal en caso de las redes inalámbricas o interrupción en la comunicación de los mismos. La siguiente imagen nos muestra un comando #[em ping].
 
     br
     br
 
     .row.justify-content-center.my-5
-      .col-10
+      .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 2
           br
           span.fst-italic Comando ping
         figure
-          img(src='@/assets/curso/temas/imagen-comando-ping-tema1.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/imgs/CF11-1.png', alt='')
+
     .row.justify-content-center.my-5
       .col-lg-10
         .cajon.color-primario.cajon-color-direccion-ip.p-4
           p.mb-0 Y un comando ping – t es un derivado del comando anterior, con la particularidad que este realiza un conjunto de más de 4 peticiones para realizar una estadística de las respuestas y los tiempos que le toma al dispositivo entregar las diferentes respuestas a las solicitudes que hace a los diferentes nodos o equipos que se encuentran en la red; esto se realiza para obtener información detallada de la interacción de este equipo con los otros en la red. La siguiente imagen nos presenta un ejemplo de este comando.
 
     .row.justify-content-center.my-5
-      .col-10
+      .col-lg-7
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 3
           br
           span.fst-italic Comando ping - t
         figure
-          img(src='@/assets/curso/temas/imagen-comando-ping-t.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/imgs/CF11-2.png', alt='')
 
       .row.justify-content-center.my-5
         .col-lg-10
