@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF11_228125_REDES_SISTEMAS_DESARROLLO_LENGUAJES_PROGRAMACION_HTML_JAVASCRIPT_CSS/](https://sena-externos.github.io/CF11_228125_REDES_SISTEMAS_DESARROLLO_LENGUAJES_PROGRAMACION_HTML_JAVASCRIPT_CSS/)
 
 #
 
